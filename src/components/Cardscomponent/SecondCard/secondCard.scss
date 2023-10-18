@@ -1,0 +1,49 @@
+.S-card{
+                display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    margin: 0 0% 3% 0%;
+                    flex-direction: column;
+                    width: 27%;
+    
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+    
+            .User-Researchers {
+                width: 520px;
+                height: 30px;
+                font-family: Montserrat;
+                font-size: 25px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.4;
+                letter-spacing: normal;
+                text-align: center;
+                color: #0f0a4b;
+            }
+    
+            .To-ensure-the-user-r {
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: justify;
+                color: #505050;
+            }
+    
+        
+    
+        // .card-sec {
+        //     display: grid;
+        //     grid-template-columns: repeat(2, 1fr);
+        //     justify-items: center;
+        //     column-gap: 8%;
+        //     margin: 0 96px 0 96px;
+        // }
+}
