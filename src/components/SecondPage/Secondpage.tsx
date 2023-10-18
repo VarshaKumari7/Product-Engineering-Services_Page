@@ -1,5 +1,5 @@
 import SecondCard from "../Cardscomponent/SecondCard/Secondcard";
-import { SecondCardData } from "../Cardscomponent/carddata/SecondCardData";
+import { secondCardData } from "../../datafile/SecondCardData";
 import "../SecondPage/secondpage.scss";
 
 const Secondpage = () => {
@@ -7,10 +7,11 @@ const Secondpage = () => {
     <div className="second-page">
       <div className="Supporting-Roles">Supporting Roles</div>
       <div className="S-card-sec">
-        {SecondCardData.map((ele: any, index: number) => {
+        {secondCardData.map((cardData: any, index: number) => {
           return (
             <SecondCard
               key={index}
+              cardData={cardData}
               // img={ele.img}
               // content={ele.content}
               // heading={ele.heading}

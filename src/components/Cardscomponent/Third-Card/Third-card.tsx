@@ -1,14 +1,17 @@
 import "../../Cardscomponent/Third-Card/thirdCard.scss";
-const ThirdCard = () => {
+const ThirdCard = ({ cardcontent }: any) => {
   return (
     <div className="Third-card">
       <div className="Third-card-img">
-        <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/A1B1D6DC-93B3-4DA6-A367-C3BE5C51CC59.png" />
+        <img src={cardcontent.img} />
       </div>
-      <div>
-        <span className="heading">Product Consulting</span>
+      <div className="heading-div">
+        <span className="heading">{cardcontent.heading}</span>
       </div>
       <div className="Content">
+        {/* {cardcontent.content.map((cont: any, index: number) => {
+          return;
+        })} */}
         <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg" />
         <span>No Crowdsourcing</span>
       </div>

@@ -1,54 +1,53 @@
-.second-page{
-    
-        .Supporting-Roles {
-            height: 30px;
-                margin: 40px 180px 50px;
-                font-family: Montserrat;
-                font-size: 17px;
-                font-weight: 600;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.33;
-                letter-spacing: normal;
-                text-align: center;
-                color: #0f0a4b;
-                margin-bottom: 2%;
-            }
-            .S-card-sec {
-                display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    margin: 0 0% 3% 0%;
-                    // flex-direction: column;
-            }
-            .B-img{
-                position: absolute;
-                left: 0;
-                width: 100%;
-            }
-            .GDM_img{
-                    position: absolute;
-                    left: 13%;
-                    // top: 262%;
-                    top: 229%;
-                    width: 74%;
-            }
-                .Global-Delivery-Mode {
-                    // width: 1080px;
-                    // height: 40px;
-                    // margin: 0 0 69px;
-                font-family: Montserrat;
-                    font-size: 24px;
-                    font-weight: 600;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 1.33;
-                    letter-spacing: normal;
-                    text-align: center;
-                    color: #04aaff;
-                    position: absolute;
-                    left: 38%;
-                    // top: 252%;
-                    top: 220%;
-                }
+.second-page {
+  .Supporting-Roles {
+    height: 30px;
+    margin: 40px 180px 50px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f0a4b;
+    margin-bottom: 2%;
+  }
+
+  .S-card-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0% 2% 0%;
+  }
+
+  .B-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+
+  .GDM_img {
+    position: absolute;
+    left: 13%;
+    // top: 262%;
+    top: 245%;
+    width: 74%;
+  }
+
+  .Global-Delivery-Mode {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #04aaff;
+    position: absolute;
+    left: 38%;
+    // top: 252%;
+    top: 237%;
+  }
 }

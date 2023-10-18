@@ -1,5 +1,5 @@
 import "../Thirdpage/thirdpage.scss";
-import { ThirdCardData } from "../Cardscomponent/carddata/ThirdCardData";
+import { thirdCardData } from "../../datafile/ThirdCardData";
 import ThirdCard from "../Cardscomponent/Third-Card/Third-card";
 
 const Thirdpage = () => {
@@ -59,13 +59,8 @@ const Thirdpage = () => {
       <div>
         <div className="Our-Plan-Process">Features at a Glance</div>
         <div className="third-card-sec">
-          {ThirdCardData.map((ele: any, index) => {
-            return (
-              <ThirdCard
-                key={index}
-                // cardcontent={ele}
-              />
-            );
+          {thirdCardData.map((cardcontent: any, index) => {
+            return <ThirdCard key={index} cardcontent={cardcontent} />;
           })}
         </div>
         <div className="last-section">
@@ -84,11 +79,12 @@ const Thirdpage = () => {
           </div>
         </div>
       </div>
-      <div className="End-of the-page">
-        <span className="Copyright-2010-202">
+      <div className="End-of-the-page">
+        <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/95435F01-85A4-43E3-BF47-BABFA042597D.png" />
+        {/* <span className="Copyright-2010-202">
           Copyright © 2010-2021 Binary Informatics Pvt. Ltd. | Company All
           rights reserved | Privacy Policy
-        </span>
+        </span> */}
       </div>
     </div>
   );

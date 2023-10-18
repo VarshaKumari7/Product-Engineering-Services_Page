@@ -1,6 +1,6 @@
 import Card from "../Cardscomponent/first-Card/firstCard";
 import "../Firstpage/first-page.scss";
-import { cardData } from "../Cardscomponent/carddata/cardData";
+import { cardData } from "../../datafile/cardData";
 const FirstPage = () => {
   return (
     <>
@@ -29,6 +29,8 @@ const FirstPage = () => {
             return (
               <Card
                 key={index}
+                ele={ele}
+
                 // img={ele.img}
                 // content={ele.content}
                 // heading={ele.heading}

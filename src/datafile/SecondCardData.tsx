@@ -1,4 +1,4 @@
-export const SecondCardData = [
+export const secondCardData = [
   {
     img: "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/915CF362-84F2-48CE-926A-AC2FD9AE1793.png",
     heading: "User Researchers",

@@ -1,18 +1,20 @@
-export const ThirdCardData = [
+export const thirdCardData = [
   {
     img: "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/A1B1D6DC-93B3-4DA6-A367-C3BE5C51CC59.png",
     heading: "Full Time Employees",
-    content: {
-      checkbox1:
-        "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg",
-      text1: "No Crowdsourcing",
-      checkbox2:
-        "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg",
-      text2: "No Partially Engaged Employees",
-      checkbox3:
-        "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg",
-      text3: "Dedicated Teams",
-    },
+    content: [
+      {
+        checkbox1:
+          "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg",
+        text1: "No Crowdsourcing",
+        checkbox2:
+          "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg",
+        text2: "No Partially Engaged Employees",
+        checkbox3:
+          "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg",
+        text3: "Dedicated Teams",
+      },
+    ],
   },
   {
     img: "https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/07E96545-CEEF-48E2-9D54-F3D95A4CEACC.png",

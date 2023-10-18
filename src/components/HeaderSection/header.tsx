@@ -16,7 +16,7 @@ const Header = () => {
         {" "}
         <div className="cont">
           <p>Talk to an Expert Call on Toll Free</p>
-          <p>+1 650 763 8001</p>
+          <span>+1 650 763 8001</span>
         </div>
         <p className="try-free">TRY IT FREE</p>
       </div>
