@@ -81,10 +81,6 @@ const Thirdpage = () => {
       </div>
       <div className="End-of-the-page">
         <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/95435F01-85A4-43E3-BF47-BABFA042597D.png" />
-        {/* <span className="Copyright-2010-202">
-          Copyright © 2010-2021 Binary Informatics Pvt. Ltd. | Company All
-          rights reserved | Privacy Policy
-        </span> */}
       </div>
     </div>
   );

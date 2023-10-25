@@ -1,3 +1,4 @@
+import React from "react";
 import "../../Cardscomponent/Third-Card/thirdCard.scss";
 const ThirdCard = ({ cardcontent }: any) => {
   return (
@@ -9,12 +10,19 @@ const ThirdCard = ({ cardcontent }: any) => {
         <span className="heading">{cardcontent.heading}</span>
       </div>
       <div className="Content">
-        {/* {cardcontent.content.map((cont: any, index: number) => {
-          return;
-        })} */}
-        <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/826DEA4F-EAB6-44BB-AC8C-62EE89309D87.svg" />
-        <span>No Crowdsourcing</span>
+        {cardcontent.content.map((cont: any, index: number) => {
+          return <ChildContent key={index} cont={cont} />;
+        })}
       </div>
+    </div>
+  );
+};
+
+const ChildContent = ({ cont }: any) => {
+  return (
+    <div>
+      <img src={cont.checkbox} alt="Checkbox" />
+      <span>{cont.text}</span>
     </div>
   );
 };

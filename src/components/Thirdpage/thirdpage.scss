@@ -1,10 +1,10 @@
 .third-page {
     position: absolute;
-    top: 299%;
+    top: 412%;
     left: 0;
 
     .Our-Plan-Process {
-        margin: -31px 0px 0px;
+        margin: -16px 0px 19px;
         font-family: Montserrat;
         font-size: 1.4rem;
         font-weight: 600;
@@ -16,10 +16,10 @@
         color: #0f0a4b;
     }
 
-    .third-page-img1 {
-        height: 35vh;
-        margin: 5px;
-    }
+    // .third-page-img1 {
+    //     height: 35vh;
+    //     margin: 5px;
+    // }
 
     .third-page-img2 {
         width: 100%;
@@ -38,7 +38,7 @@
 
         .-Certified-BI-Exp {
             width: 10%;
-            font-family: Montserrat;
+            // font-family: Montserrat;
             font-size: 1rem;
             font-weight: 500;
             font-stretch: normal;
@@ -56,13 +56,13 @@
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
         column-gap: 3%;
-        margin: 0 68px 0 68px;
-        height: 292px;
-        margin-bottom: 29px;
+        margin: 0 68px 29px 68px;
+        // height: 343px;
+        // margin-bottom: 29px;
     }
 
     .last-section {
-        height: 54vh;
+        // height: 54vh;
 
         img {
             width: 100%;
@@ -70,19 +70,26 @@
     }
 
     .GET-AHEAD {
+        // position: absolute;
+        // top: 74%;
+        // left: 53%;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // width: 38%;
         position: absolute;
         top: 74%;
-        left: 53%;
+        left: 51%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 38%;
+        width: 39%;
     }
 
     .Get-ahead-in-your-In {
         margin: 0 0 15px;
-        font-family: MontserratRoman-Bold;
-        font-size: 1.8rem;
+        // font-family: MontserratRoman-Bold;
+        font-size: 2.8rem;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -93,14 +100,15 @@
         width: 100%;
     }
 
-    .Get-ahead-in-your-In .text-style-1 {
+    .text-style-1 {
+        font-family: sans-serif;
+        font-weight: 700;
         color: #fff;
-        font-family: MontserratRoman-Bold;
     }
 
-    .Get-ahead-in-your-In .text-style-2 {
-        font-family: Montserrat-Light;
-        font-weight: 300;
+    .text-style-2 {
+        // font-family: system-ui;
+        font-weight: 100;
         color: #fff;
     }
 
@@ -113,7 +121,7 @@
     }
 
     .Get-In-Touch {
-        font-family: Montserrat;
+        font-family: unset;
         font-size: 16px;
         font-weight: bold;
         font-stretch: normal;
@@ -131,6 +139,9 @@
         img {
             height: 7vh;
             width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
         }
 
         // .Copyright-2010-202 {

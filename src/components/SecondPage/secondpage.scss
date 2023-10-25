@@ -1,4 +1,7 @@
 .second-page {
+  position: absolute;
+  top: 240%;
+
   .Supporting-Roles {
     height: 30px;
     margin: 40px 180px 50px;
@@ -22,16 +25,24 @@
   }
 
   .B-img {
+    // position: absolute;
+    // left: 0;
+    // width: 100%;
     position: absolute;
     left: 0;
     width: 100%;
+    top: 106%;
   }
 
   .GDM_img {
+    // position: absolute;
+    // left: 13%;
+    // // top: 262%;
+    // top: 245%;
+    // width: 74%;
     position: absolute;
     left: 13%;
-    // top: 262%;
-    top: 245%;
+    top: 137%;
     width: 74%;
   }
 
@@ -48,6 +59,8 @@
     position: absolute;
     left: 38%;
     // top: 252%;
-    top: 237%;
+    // top: 237%;
+    left: 42%;
+    top: 123%;
   }
 }

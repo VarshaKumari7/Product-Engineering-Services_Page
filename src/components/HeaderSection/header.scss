@@ -1,15 +1,23 @@
 .-header {
     background-color: #0f0a4b;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     // height: 27px;
 
     img.Bitmap-Copy-5 {
+
         width: 114px;
         height: 40px;
         object-fit: contain;
-        margin: 15px 0 15px 0px;
+        margin: 15px 0 15px 85px;
+
+    }
+
+    .logo img {
+        height: 30px;
+        width: 86px;
+        margin: 20px;
     }
 
     .header-contact {
@@ -26,9 +34,9 @@
             align-items: flex-end;
 
             p {
-                font-size: 0.8rem;
+
                 margin-bottom: 0px;
-                margin-top: 24px;
+                margin-top: 12px;
             }
 
             span {
@@ -37,14 +45,20 @@
             }
         }
 
-        .try-free {
-            background-color: #f8e71c;
-            border-radius: 20px;
-            text-align: center;
-            font-size: 17px;
-            font-weight: 800;
-            padding: 9px 22px;
-            color: black;
+        .Rectangle {
+            // height: 40px;
+            // border-radius: 20px;
+
+            .try-free {
+                background-color: #f8e71c;
+                border-radius: 20px;
+                text-align: center;
+                // font-size: 17px;
+                font-weight: 800;
+                padding: 9px 22px;
+                color: black;
+                margin-right: 80px;
+            }
         }
     }
 }
