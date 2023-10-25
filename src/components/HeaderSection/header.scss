@@ -5,19 +5,19 @@
     align-items: center;
     // height: 27px;
 
-    img.Bitmap-Copy-5 {
+    // img.Bitmap-Copy-5 {
 
-        width: 114px;
-        height: 40px;
-        object-fit: contain;
-        margin: 15px 0 15px 85px;
+    //     width: 114px;
+    //     height: 40px;
+    //     object-fit: contain;
+    //     margin: 15px 0 15px 85px;
 
-    }
+    // }
 
     .logo img {
-        height: 30px;
-        width: 86px;
-        margin: 20px;
+        height: 40px;
+        width: 114px;
+        margin: 20px 85px;
     }
 
     .header-contact {
@@ -34,14 +34,15 @@
             align-items: flex-end;
 
             p {
-
                 margin-bottom: 0px;
-                margin-top: 12px;
+                margin-top: 19px;
+                font-size: 13px;
             }
 
             span {
                 color: #f8e71c;
                 text-align: end;
+                font-size: 12px;
             }
         }
 
