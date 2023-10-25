@@ -28,10 +28,43 @@
     // position: absolute;
     // left: 0;
     // width: 100%;
-    position: absolute;
-    left: 0;
+    // position: absolute;
+    // left: 0;
     width: 100%;
-    top: 106%;
+    // top: 106%;
+  }
+
+  .content-375 {
+
+
+
+    .Rectangle-375 {
+      width: 320px;
+      height: 40px;
+      margin: 26px 10px 20px 18px;
+      padding: 0 0 0 20px;
+      border-radius: 10px;
+      border: solid 1px #f8e71c;
+
+      .Onsite {
+        width: 300px;
+        height: 40px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.22;
+        letter-spacing: normal;
+        color: #f8e71c;
+      }
+    }
+
+    .text-inbox img {
+      position: relative;
+      width: 90%;
+
+    }
   }
 
   .GDM_img {

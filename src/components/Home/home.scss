@@ -1,5 +1,5 @@
 /* Mobile styles */
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 500px) {
     .-header .header-contact .Rectangle .try-free {
         font-size: 10px !important;
         border-radius: 38px !important;
@@ -12,6 +12,12 @@
         height: 30px;
         object-fit: contain;
         margin: 20px 0 15px 20px;
+    }
+
+    .logo img {
+        height: 30px !important;
+        width: 86px !important;
+        margin: 20px !important;
     }
 
     .-header .header-contact .cont {
@@ -36,9 +42,13 @@
     }
 
     .header-contact .Rectangle .try-free {
+        // font-size: 10px !important;
+        // border-radius: 21px !important;
+        // padding: 5px 17px !important;
+        // margin: 15px 10px !important;
         font-size: 10px !important;
-        border-radius: 21px !important;
-        padding: 5px 17px !important;
+        border-radius: 38px !important;
+        padding: 6px 17px !important;
         margin: 15px 10px !important;
     }
 
@@ -62,7 +72,7 @@
 
     .card-sec {
         display: block !important;
-        margin: 0 20px 0 20px !important;
+        margin: 15px 26px 0 27px !important;
     }
 
     .second-page .S-card-sec {
@@ -116,6 +126,11 @@
         margin-top: 22px;
     }
 
+    .card-sec {
+        display: block;
+        margin: 0 11px 0 31px;
+    }
+
     .card img {
         object-fit: contain;
         // width: 330px !important;
@@ -139,11 +154,90 @@
         width: 100% !important;
     }
 
-    .footer-section .-Member-App-Serv {
+    .-Member-App-Serv {
         width: 100% !important;
         font-size: 7px !important;
     }
 
+    .second-page {
+        position: relative !important;
+
+        .Supporting-Roles {
+            font-size: 22px !important;
+            margin: 0px !important;
+        }
+
+        .S-card {
+            width: 90% !important;
+            padding: 15px !important;
+        }
+
+        .B-img {
+            width: 100%;
+            height: 1084px;
+        }
+    }
+
+
+    .content-375 {
+
+        position: absolute;
+        top: 56%;
+        color: white;
+
+    }
+
+    .Global-Delivery-Mode {
+        font-size: 22px !important;
+        position: absolute;
+        left: 18% !important;
+        top: 55% !important;
+    }
+
+    .Rectangle-375 {
+        width: 100% !important;
+        margin: 26px 1px 20px 1px !important;
+        padding: -1px !important;
+
+    }
+
+    .content-375 {
+        position: absolute;
+        top: 56%;
+        color: white;
+        text-align: justify;
+        word-spacing: 1px;
+        font-size: 12px;
+        padding: 0px 30px;
+    }
+
+    .GDM_img {
+        position: absolute;
+        left: 13% !important;
+        top: 107% !important;
+        width: 76% !important;
+        height: 194px;
+    }
+
+    .small-text-container {
+        position: absolute;
+        top: 186% !important;
+    }
+
+    .text-inbox img {
+        position: relative;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .card .Count-on-the-experts {
+        width: 215px !important;
+    }
+
+    .footer-section .-Member-App-Serv {
+        font-size: 12px !important;
+    }
 }
 
 /* Tablet styles */
@@ -156,9 +250,9 @@
     }
 
     .logo img {
-        height: 30px;
-        width: 86px;
-        margin: 20px 85px;
+        height: 30px !important;
+        width: 86px !important;
+        margin: 20px 0px 20px 85px;
     }
 
     .-header .header-contact .Rectangle .try-free {
@@ -191,13 +285,13 @@
         margin: 0 0 79px;
         font-family: Montserrat;
         font-size: 30px !important;
-        line-height: 45px !important;
+        line-height: 37px !important;
         margin-top: -235px !important;
         position: absolute;
     }
 
     .Our-Experts {
-        margin-top: 24px !important;
+        margin-top: 4px !important;
     }
 
     .man-holding-technology-gear-wheel-interface .Consult-With-Our-Exp {
