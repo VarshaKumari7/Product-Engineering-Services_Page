@@ -66,34 +66,34 @@ const Thirdpage = () => {
         <span className="-Certified-BI-Exp">50+ Certified BI Experts</span>
         <img
           // src={require("../../img/vector.svg")}
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Innovation Labs</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Data Visualization</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Data Governance</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Industry Specific Solutions</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">
           5+ years of experience in Data Science
         </span>
       </div>
-      <div>
+      <div className="our-plan">
         <div className="Our-Plan-Process">Features at a Glance</div>
         <div className="third-card-sec">
           {thirdCardData.map((cardcontent: any, index) => {

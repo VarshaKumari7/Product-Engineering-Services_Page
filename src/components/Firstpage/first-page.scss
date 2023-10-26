@@ -101,6 +101,7 @@
     justify-content: space-evenly;
     // position: absolute;
     top: 218%;
+    // overflow: hidden;
 
     .-Member-App-Serv {
         width: 10%;
@@ -114,6 +115,10 @@
         text-align: center;
         color: #fff;
         padding: 20px 0px;
+
+        .Group-14-Copy {
+            height: 52px;
+        }
     }
 
 }

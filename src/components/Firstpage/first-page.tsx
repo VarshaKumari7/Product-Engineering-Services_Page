@@ -33,32 +33,24 @@ const FirstPage = () => {
       <div className="footer-section">
         <span className="-Member-App-Serv">100+ Member App Services Team</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Member-App-Serv">Industry Specific Solutions</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Member-App-Serv">
           Frameworks & Solution Accelrators
         </span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Member-App-Serv">App. Support & Maintanence</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Member-App-Serv">Offshore Development Center</span>

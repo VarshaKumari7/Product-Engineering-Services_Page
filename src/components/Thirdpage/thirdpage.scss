@@ -84,11 +84,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: scroll;
 
         .-Certified-BI-Exp {
-            width: 10%;
+            width: 100%;
             // font-family: Montserrat;
-            font-size: 1rem;
+            font-size: 14px;
             font-weight: 500;
             font-stretch: normal;
             font-style: normal;
@@ -97,6 +98,7 @@
             text-align: center;
             color: #fff;
             padding: 20px 15px;
+            // overflow: hidden;
         }
     }
 
@@ -112,6 +114,10 @@
 
     .last-section {
         // height: 54vh;
+        background-image: url("../../img/375-bg-img.png");
+        background-repeat: no-repeat;
+        // // background-attachment: fixed;
+        background-size: cover;
 
         img {
             width: 100%;
