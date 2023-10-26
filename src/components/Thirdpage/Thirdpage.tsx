@@ -8,48 +8,85 @@ const Thirdpage = () => {
       <div className="Our-Plan-Process">Our Plan & Process</div>
       <div>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/4557A9D3-0554-4E26-BD30-8405A55C9D98.png"
+          src={require("../../img/375-img3.png")}
           className="third-page-img1"
         ></img>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/63385C9A-F5AA-4987-A9BD-199EDBFF465B.png"
+          src={require("../../img/375-img4.png")}
           className="third-page-img2"
         ></img>
       </div>
+      {/* 34567890-----------0987654321234567890-5432134 */}
+
+      <div className="gradient-copy">
+        <div className="new-content">
+          <img src={require("../../img/375-img5.png")} />
+          <span className="-NDA-and-IP-Protect">
+            • NDA and IP Protection <br></br>• Master Services Agreement{" "}
+            <br></br>• Statement of Work
+          </span>
+        </div>
+        <div className="new-content">
+          <img src={require("../../img/375-img6.png")} />
+          <span className="-NDA-and-IP-Protect">
+            • Work Closely with Customers <br></br>• IP Protection Agreements
+            with Every Resource <br></br>• Induction
+          </span>
+        </div>
+        <div className="new-content">
+          <img src={require("../../img/375-img7.png")} />
+          <span className="-NDA-and-IP-Protect">
+            • (on-site/ offshore) <br></br>• Understand the Technology,
+            Requirements, Processes and build good working relationship
+          </span>
+        </div>
+        <div className="new-content">
+          <img src={require("../../img/375-img8.png")} />
+          <span className="-NDA-and-IP-Protect">
+            • Network and Servers <br></br>• Security and IP Protection{" "}
+            <br></br>• Source Control <br></br>• Collaboration Tools <br></br> •
+            Development Tools <br></br>• Environments Set up
+          </span>
+        </div>
+        <div className="new-content">
+          <img src={require("../../img/375-img9.png")} />
+          <span className="-NDA-and-IP-Protect">
+            • Communication <br></br>• Requirements <br></br>• Dev Tools &
+            Frameworks set up <br></br>• Technical Documents <br></br>• Coding
+            Standards & Process <br></br>• Code Review & Intermediate Release
+            Plan <br></br>• Release Management
+          </span>
+        </div>
+        <div className="get-started">
+          <img src={require("../../img/375-img10.png")} />
+        </div>
+      </div>
+
       <div className="Thirdpage-footer-section">
         <span className="-Certified-BI-Exp">50+ Certified BI Experts</span>
         <img
+          // src={require("../../img/vector.svg")}
           src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Innovation Labs</span>
         <img
           src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Data Visualization</span>
         <img
           src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Data Governance</span>
         <img
           src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Industry Specific Solutions</span>
         <img
           src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">
@@ -64,7 +101,7 @@ const Thirdpage = () => {
           })}
         </div>
         <div className="last-section">
-          <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/9BEABA06-2DF4-439A-A1A5-1ADCA7E60B5A.png" />
+          <img src={require("../../img/375-bg-img.png")} />
           <div className="GET-AHEAD">
             <span className="Get-ahead-in-your-In">
               <span className="text-style-1">Get ahead in your Industry</span>
@@ -80,7 +117,10 @@ const Thirdpage = () => {
         </div>
       </div>
       <div className="End-of-the-page">
-        <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/95435F01-85A4-43E3-BF47-BABFA042597D.png" />
+        <span className="Copyright-2010-202">
+          Copyright © 2010-2021 Binary Informatics Pvt. Ltd. Company All rights
+          reserved | Privacy Policy
+        </span>
       </div>
     </div>
   );
