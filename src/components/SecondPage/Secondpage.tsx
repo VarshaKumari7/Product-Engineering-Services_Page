@@ -25,7 +25,7 @@ const Secondpage = () => {
   useEffect(() => {
     window.addEventListener("resize", updateMedia);
     return () => window.removeEventListener("resize", updateMedia);
-  }, []);
+  }, [screenWidth]);
   return (
     <div className="second-page">
       <div className="Supporting-Roles">Supporting Roles</div>
