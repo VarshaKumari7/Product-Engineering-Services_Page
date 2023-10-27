@@ -5,6 +5,12 @@ import { useEffect, useState } from "react";
 
 const Thirdpage = () => {
   const [isDesktop, setDesktop] = useState(window.innerWidth >= 1024);
+  const [screenWidth, setScreenWidth] = useState(window.screen.width);
+
+  const currentScreenWidth = () => {
+    setScreenWidth(() => window.innerWidth);
+    console.log("Screen Size ", screenWidth);
+  };
 
   const updateMedia = () => {
     setDesktop(window.innerWidth >= 1024);
@@ -12,9 +18,14 @@ const Thirdpage = () => {
   };
 
   useEffect(() => {
+    window.addEventListener("resize", currentScreenWidth);
+    return () => window.removeEventListener("resize", currentScreenWidth);
+  });
+
+  useEffect(() => {
     window.addEventListener("resize", updateMedia);
     return () => window.removeEventListener("resize", updateMedia);
-  }, []);
+  }, [screenWidth]);
   return (
     <div className="third-page">
       <div className="Our-Plan-Process">Our Plan & Process</div>

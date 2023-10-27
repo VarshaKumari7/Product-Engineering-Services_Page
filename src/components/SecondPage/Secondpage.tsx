@@ -5,11 +5,22 @@ import { useEffect, useState } from "react";
 
 const Secondpage = () => {
   const [isDesktop, setDesktop] = useState(window.innerWidth >= 1024);
+  const [screenWidth, setScreenWidth] = useState(window.screen.width);
+
+  const currentScreenWidth = () => {
+    setScreenWidth(() => window.innerWidth);
+    console.log("Screen Size ", screenWidth);
+  };
 
   const updateMedia = () => {
     setDesktop(window.innerWidth >= 1024);
     console.log("uetuiufqhhj", isDesktop);
   };
+
+  useEffect(() => {
+    window.addEventListener("resize", currentScreenWidth);
+    return () => window.removeEventListener("resize", currentScreenWidth);
+  });
 
   useEffect(() => {
     window.addEventListener("resize", updateMedia);
