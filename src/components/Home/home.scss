@@ -185,10 +185,14 @@
             padding: 15px !important;
         }
 
-        .B-img {
+        .B-img-375 {
             width: 100%;
             height: 1084px;
         }
+
+        // .B-img-786 {
+        //     visibility: hidden;
+        // }
     }
 
 
@@ -338,6 +342,30 @@
 }
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .second-page {
+        // position: relative !important;
+
+        // .Supporting-Roles {
+        //     font-size: 22px !important;
+        //     margin: 0px !important;
+        // }
+
+        // .S-card {
+        //     width: 90% !important;
+        //     padding: 15px !important;
+        // }
+
+        // .B-img-375 {
+
+        //     visibility: hidden;
+        // }
+
+        .B-img-786 {
+            width: 100%;
+            height: 910px;
+        }
+    }
+
     .card .Count-on-the-experts {
         width: 215px !important;
     }
@@ -523,8 +551,62 @@
 }
 
 /* Laptop/Desktop styles */
-// @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-//     * {
-//         background-color: red
-//     }
-// }
+@media only screen and (min-width: 1024px) {
+
+    // * {
+    //     background-color: red
+    // }
+    .second-page {
+        position: unset !important;
+
+        .S-card {
+            height: 408px !important;
+        }
+    }
+
+    .B-img-786 {
+        width: 100%;
+
+    }
+
+    .GDM-desktop {
+        margin-top: 11%;
+        position: absolute;
+        width: 78%;
+        left: 9%;
+    }
+
+    .third-page {
+
+        .last-section img {
+            width: 100% !important;
+        }
+
+        .GET-AHEAD {
+            margin-left: 43% !important;
+            margin-top: -29% !important;
+        }
+
+        .Get-ahead-in-your-In {
+            width: 500px !important;
+        }
+
+        .Rectangle-2-Copy-10 {
+            width: 35% !important;
+        }
+
+        .End-of-the-page {
+            margin-top: 14% !important;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .second-page .S-card {
+        height: 522px !important;
+    }
+
+
+}

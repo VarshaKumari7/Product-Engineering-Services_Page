@@ -9,7 +9,7 @@ const Home = () => {
     <div className="-Bi_Product-Engineering-Services_Page">
       <Header />
 
-      {/* <Secondpage /> */}
+      <Secondpage />
       <Thirdpage />
     </div>
   );
