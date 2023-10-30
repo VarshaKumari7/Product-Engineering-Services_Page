@@ -42,10 +42,6 @@
     }
 
     .header-contact .Rectangle .try-free {
-        // font-size: 10px !important;
-        // border-radius: 21px !important;
-        // padding: 5px 17px !important;
-        // margin: 15px 10px !important;
         font-size: 10px !important;
         border-radius: 38px !important;
         padding: 6px 17px !important;
@@ -56,11 +52,6 @@
         display: flex;
         flex: 0;
     }
-
-    // .Our-Product {
-    //     // top: 63%;
-    //     margin-top: 518px;
-    // }
 
     .man-holding-technology-gear-wheel-interface img {
         left: 0;
@@ -79,6 +70,7 @@
         display: block !important;
     }
 
+
     .third-page .third-card-sec {
         display: block !important;
     }
@@ -86,6 +78,13 @@
     .third-page .last-section img {
         width: 100%;
         height: 700px;
+    }
+
+    .B-img-786,
+    .GDM-desktop,
+    .third-page-img,
+    .states-786 {
+        display: none;
     }
 
     // .last-section {
@@ -189,10 +188,6 @@
             width: 100%;
             height: 1084px;
         }
-
-        // .B-img-786 {
-        //     visibility: hidden;
-        // }
     }
 
 
@@ -278,6 +273,10 @@
         }
     }
 
+    .third-page-img {
+        display: none;
+    }
+
     .get-started img {
 
         width: 100% !important;
@@ -288,10 +287,6 @@
     }
 
     .third-page .third-card-sec {
-        // display: grid;
-        // grid-template-columns: repeat(4, 1fr);
-        // justify-items: center;
-        // column-gap: 3%;
         margin: 0 20px 29px 20px !important;
 
         .Third-card {
@@ -316,6 +311,10 @@
         padding: 7px 1px;
         border-radius: 25px;
         background-color: #f8e71c;
+    }
+
+    .lower-bg-1440 {
+        display: none;
     }
 
     .third-page .End-of-the-page {
@@ -343,27 +342,58 @@
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {
     .second-page {
-        // position: relative !important;
-
-        // .Supporting-Roles {
-        //     font-size: 22px !important;
-        //     margin: 0px !important;
-        // }
-
-        // .S-card {
-        //     width: 90% !important;
-        //     padding: 15px !important;
-        // }
-
-        // .B-img-375 {
-
-        //     visibility: hidden;
-        // }
+        position: unset !important;
 
         .B-img-786 {
+            // top: 381% !important;
             width: 100%;
-            height: 910px;
+            left: 0;
+            position: absolute !important;
         }
+
+        .GDM-desktop {
+            position: relative !important;
+            width: 85% !important;
+            margin-top: 10% !important;
+        }
+
+        .GDM_img {
+            display: none;
+        }
+
+
+        .B-img-375,
+        .content-375,
+        .third-page-img,
+        .third-page-img2,
+        .gradient-copy {
+            display: none;
+        }
+
+        .Global-Delivery-Mode {
+            margin-top: -270px !important;
+            margin-left: -321px !important;
+            position: unset !important;
+        }
+    }
+
+    .S-card {
+        height: 485px !important;
+    }
+
+    .states-786,
+    .third-page-img-state {
+        width: 100% !important;
+
+    }
+
+    .third-page-img-state {
+        height: 38vh !important;
+    }
+
+    .third-page-img1 {
+        width: 55% !important;
+        height: 39vh !important;
     }
 
     .card .Count-on-the-experts {
@@ -373,6 +403,36 @@
     .footer-section .-Member-App-Serv {
         font-size: 12px !important;
     }
+
+    .third-page-img2,
+    .third-page-img,
+    .gradient-copy {
+        display: none;
+    }
+
+    .lower-bg-375 {
+        display: none;
+    }
+
+    .last-section {
+        img {
+            width: 100% !important;
+            height: 500px;
+        }
+    }
+
+    .GET-AHEAD {
+        // margin-top: -408px !important;
+        margin-top: -55% !important;
+        margin-left: 45% !important;
+    }
+
+
+    .End-of-the-page {
+        // margin-top: 293px !important;
+        margin-top: 130px !important;
+    }
+
 }
 
 /* Tablet styles */
@@ -433,8 +493,6 @@
         font-size: 16px !important;
         border-radius: 30px !important;
         padding: 6px 44px !important;
-        // width: 260px !important; 
-        // height: 20px !important;
     }
 
 
@@ -508,6 +566,8 @@
         margin-left: 253px !important;
     }
 
+
+
     .third-page .gradient-copy .get-started img {
         width: 100%;
         height: 120px;
@@ -528,19 +588,19 @@
         margin-left: 253px;
     }
 
-    .third-page .GET-AHEAD {
-        margin-top: -820px !important;
-    }
+    // .third-page .GET-AHEAD {
+    //     margin-top: -820px !important;
+    // }
 
-    .third-page .Get-ahead-in-your-In {
-        height: 220px;
-        margin: 0 0 15px;
-        width: 561px !important;
-    }
+    // .third-page .Get-ahead-in-your-In {
+    //     height: 220px;
+    //     margin: 0 0 15px;
+    //     width: 561px !important;
+    // }
 
-    .third-page .End-of-the-page {
-        margin-top: 600px !important;
-    }
+    // .third-page .End-of-the-page {
+    //     margin-top: 600px !important;
+    // }
 
     // .last-section {
     //     background-image: url("../../img/background-img.png");
@@ -569,6 +629,17 @@
 
     }
 
+    .GDM_img,
+    .B-img-375,
+    .content-375,
+    .third-page-img1,
+    .third-page .third-page-img2,
+    .gradient-copy,
+    .lower-bg-375,
+    .states-786 {
+        display: none;
+    }
+
     .GDM-desktop {
         margin-top: 11%;
         position: absolute;
@@ -576,11 +647,19 @@
         left: 9%;
     }
 
+    .Global-Delivery-Mode {
+        // position: unset !important;
+        margin-top: -561px !important;
+        top: unset !important;
+    }
+
     .third-page {
 
         .last-section img {
             width: 100% !important;
         }
+
+
 
         .GET-AHEAD {
             margin-left: 43% !important;

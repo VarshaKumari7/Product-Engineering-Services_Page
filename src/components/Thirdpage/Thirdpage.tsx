@@ -20,7 +20,7 @@ const Thirdpage = () => {
   useEffect(() => {
     window.addEventListener("resize", currentScreenWidth);
     return () => window.removeEventListener("resize", currentScreenWidth);
-  });
+  }, [currentScreenWidth]);
 
   useEffect(() => {
     window.addEventListener("resize", updateMedia);
@@ -30,74 +30,83 @@ const Thirdpage = () => {
     <div className="third-page">
       <div className="Our-Plan-Process">Our Plan & Process</div>
       <div>
-        {isDesktop ? (
-          <>
-            <img
-              src={require("../../img/States-1440.png")}
-              className="third-page-img1"
-            ></img>
-            <img
-              src={require("../../img/get-started-1440.png")}
-              className="third-page-img2"
-            ></img>
-          </>
+        {/* {isDesktop ? (
+          <> */}
+        <img
+          src={require("../../img/States-1440.png")}
+          className="third-page-img"
+        ></img>
+        {/* <img
+          src={require("../../img/get-started-1440.png")}
+          className="third-page-img"
+        ></img> */}
+
+        {/* </>
         ) : (
-          <>
-            <div>
-              <img
-                src={require("../../img/375-img3.png")}
-                className="third-page-img1"
-              ></img>
-              <img
-                src={require("../../img/375-img4.png")}
-                className="third-page-img2"
-              ></img>
-            </div>
-            <div className="gradient-copy">
-              <div className="new-content">
-                <img src={require("../../img/375-img5.png")} />
-                <span className="-NDA-and-IP-Protect">
-                  • NDA and IP Protection <br></br>• Master Services Agreement{" "}
-                  <br></br>• Statement of Work
-                </span>
-              </div>
-              <div className="new-content">
-                <img src={require("../../img/375-img6.png")} />
-                <span className="-NDA-and-IP-Protect">
-                  • Work Closely with Customers <br></br>• IP Protection
-                  Agreements with Every Resource <br></br>• Induction
-                </span>
-              </div>
-              <div className="new-content">
-                <img src={require("../../img/375-img7.png")} />
-                <span className="-NDA-and-IP-Protect">
-                  • (on-site/ offshore) <br></br>• Understand the Technology,
-                  Requirements, Processes and build good working relationship
-                </span>
-              </div>
-              <div className="new-content">
-                <img src={require("../../img/375-img8.png")} />
-                <span className="-NDA-and-IP-Protect">
-                  • Network and Servers <br></br>• Security and IP Protection{" "}
-                  <br></br>• Source Control <br></br>• Collaboration Tools{" "}
-                  <br></br> • Development Tools <br></br>• Environments Set up
-                </span>
-              </div>
-              <div className="new-content">
-                <img src={require("../../img/375-img9.png")} />
-                <span className="-NDA-and-IP-Protect">
-                  • Communication <br></br>• Requirements <br></br>• Dev Tools &
-                  Frameworks set up <br></br>• Technical Documents <br></br>•
-                  Coding Standards & Process <br></br>• Code Review &
-                  Intermediate Release Plan <br></br>• Release Management
-                </span>
-              </div>
-              <div className="get-started">
-                <img src={require("../../img/375-img10.png")} />
-              </div>
-            </div>
-          </>
-        )}
+          <> */}
+        <div className="third-page-imgs">
+          <img
+            src={require("../../img/375-img3.png")}
+            className="third-page-img1"
+          ></img>
+          <img
+            src={require("../../img/states-786.png")}
+            className="states-786"
+          ></img>
+          <img
+            src={require("../../img/375-img4.png")}
+            className="third-page-img2"
+          ></img>
+        </div>
+        <img
+          src={require("../../img/get-started-1440.png")}
+          className="third-page-img-state"
+        ></img>
+        <div className="gradient-copy">
+          <div className="new-content">
+            <img src={require("../../img/375-img5.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • NDA and IP Protection <br></br>• Master Services Agreement{" "}
+              <br></br>• Statement of Work
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img6.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • Work Closely with Customers <br></br>• IP Protection Agreements
+              with Every Resource <br></br>• Induction
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img7.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • (on-site/ offshore) <br></br>• Understand the Technology,
+              Requirements, Processes and build good working relationship
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img8.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • Network and Servers <br></br>• Security and IP Protection{" "}
+              <br></br>• Source Control <br></br>• Collaboration Tools <br></br>{" "}
+              • Development Tools <br></br>• Environments Set up
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img9.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • Communication <br></br>• Requirements <br></br>• Dev Tools &
+              Frameworks set up <br></br>• Technical Documents <br></br>• Coding
+              Standards & Process <br></br>• Code Review & Intermediate Release
+              Plan <br></br>• Release Management
+            </span>
+          </div>
+          <div className="get-started">
+            <img src={require("../../img/375-img10.png")} />
+          </div>
+        </div>
+        {/* </>
+        )} */}
       </div>
 
       <div className="Thirdpage-footer-section">
@@ -139,13 +148,19 @@ const Thirdpage = () => {
           })}
         </div>
         <div className="last-section">
-          <div>
-            {isDesktop ? (
-              <img src={require("../../img/lower-bg-1440.png")} />
-            ) : (
-              <img src={require("../../img/lower-bg-375.png")} />
-            )}
-          </div>
+          {/* <div>
+            {isDesktop ? ( */}
+          <img
+            src={require("../../img/lower-bg-1440.png")}
+            className="lower-bg-1440"
+          />
+          {/* ) : ( */}
+          <img
+            src={require("../../img/lower-bg-375.png")}
+            className="lower-bg-375"
+          />
+          {/* )}
+          </div> */}
 
           <div className="GET-AHEAD">
             <span className="Get-ahead-in-your-In">
