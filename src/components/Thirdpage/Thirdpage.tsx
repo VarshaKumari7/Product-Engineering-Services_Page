@@ -81,7 +81,7 @@ const Thirdpage = () => {
             <img src={require("../../img/375-img7.png")} />
             <span className="-NDA-and-IP-Protect">
               • (on-site/ offshore) <br></br>• Understand the Technology,
-              Requirements, Processes and build good working relationship
+              Requirements, Processe-plains and build good working relationship
             </span>
           </div>
           <div className="new-content">
@@ -152,6 +152,10 @@ const Thirdpage = () => {
             {isDesktop ? ( */}
           <img
             src={require("../../img/lower-bg-1440.png")}
+            className="lower-bg-1440-plain"
+          />
+          <img
+            src={require("../../img/lower-786.png")}
             className="lower-bg-1440"
           />
           {/* ) : ( */}

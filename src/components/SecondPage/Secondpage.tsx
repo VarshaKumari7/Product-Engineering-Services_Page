@@ -35,17 +35,25 @@ const Secondpage = () => {
         })}
       </div>
       <div className="G-D-Model">
-        <div>
+        <div className="destop">
           {/* {isDesktop ? (
             <> */}
           <img
             src={require("../../img/GDM-bg-1440.png")}
             className="B-img-786"
           />
-          <img
-            src={require("../../img/GDM-desktop.png")}
-            className="GDM-desktop"
-          />
+          <div className="gdmodel">
+            <div className="spanmsg">
+              <span className="Global-Delivery-Mode">
+                Global Delivery Model
+              </span>
+            </div>
+            <img
+              src={require("../../img/GDM-desktop.png")}
+              className="GDM-desktop"
+            />
+          </div>
+
           {/* </>
           ) : (
             <> */}
@@ -53,9 +61,7 @@ const Secondpage = () => {
             src={require("../../img/GDM-bg-375.png")}
             className="B-img-375"
           />
-          <div>
-            <span className="Global-Delivery-Mode">Global Delivery Model</span>
-          </div>
+
           <div className="content-375">
             <div className="Rectangle-375">
               <span className="Onsite">Onsite</span>

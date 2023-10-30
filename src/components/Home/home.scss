@@ -1,6 +1,8 @@
 /* Mobile styles */
 @media only screen and (max-width: 500px) {
     .-header .header-contact .Rectangle .try-free {
+        height: 30px !important;
+        width: 54px !important;
         font-size: 10px !important;
         border-radius: 38px !important;
         padding: 9px 26px !important;
@@ -26,7 +28,7 @@
     }
 
     .-header .header-contact .cont span {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
     .-header .header-contact .cont p {
@@ -70,6 +72,10 @@
         display: block !important;
     }
 
+    .Our-Plan-Process {
+        margin: 60px 0px 60px !important;
+        font-size: 22px !important;
+    }
 
     .third-page .third-card-sec {
         display: block !important;
@@ -83,7 +89,8 @@
     .B-img-786,
     .GDM-desktop,
     .third-page-img,
-    .states-786 {
+    .states-786,
+    .third-page-img-state {
         display: none;
     }
 
@@ -263,6 +270,18 @@
         height: 36px !important;
     }
 
+    .gdmodel {
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        left: 10% !important;
+
+        .Global-Delivery-Mode {
+            margin: 0px !important;
+        }
+    }
+
     .third-page .Thirdpage-footer-section {
         overflow-x: scroll;
         height: auto;
@@ -271,6 +290,15 @@
         .-Certified-BI-Exp {
             padding: 16px 36px !important;
         }
+    }
+
+    .Third-card {
+        // height: 350px !important;
+        // width: 350px !important;
+        // margin: 30px 23px 15px 13px !important;
+        width: 93.33% !important;
+        height: 93.33% !important;
+        margin: 7px 12px 19px 13px !important;
     }
 
     .third-page-img {
@@ -287,7 +315,7 @@
     }
 
     .third-page .third-card-sec {
-        margin: 0 20px 29px 20px !important;
+        // margin: 0 20px 29px 20px !important;
 
         .Third-card {
             display: flex;
@@ -313,8 +341,9 @@
         background-color: #f8e71c;
     }
 
-    .lower-bg-1440 {
-        display: none;
+    .lower-bg-1440,
+    .lower-bg-1440-plain {
+        display: none !important;
     }
 
     .third-page .End-of-the-page {
@@ -340,7 +369,24 @@
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 900px) {
+@media only screen and (min-width : 500px) and (max-width : 650px) {
+    .second-page .S-card-sec {
+        display: grid !important;
+        margin: 8% 2% 2% 2% !important;
+        grid-column-gap: 3% !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+
+        .S-card {
+            width: 100% !important;
+
+            height: 385px !important;
+            margin-bottom: 8%;
+
+        }
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1020px) {
     .second-page {
         position: unset !important;
 
@@ -370,15 +416,62 @@
             display: none;
         }
 
+        .gdmodel {
+            position: relative;
+            left: 8%;
+            margin-top: 39px;
+            display: flex;
+            width: 92% !important;
+        }
+
+        .spanmsg {
+            margin-top: 33px;
+        }
+
         .Global-Delivery-Mode {
-            margin-top: -270px !important;
-            margin-left: -321px !important;
-            position: unset !important;
+            left: unset !important;
+            top: unset !important;
+
+            // margin-top: -270px !important;
+            // margin-left: -321px !important;
+            // position: unset !important;
+            .second-page .GDM-desktop {
+                position: relative !important;
+                width: 85% !important;
+                /* margin-top: 10% !important; */
+                left: -3% !important;
+                left: unset !important;
+                top: unset !important;
+            }
+        }
+
+        .Supporting-Roles {
+            height: 30px;
+            margin: 40px 180px 50px;
+            font-family: Montserrat;
+            font-size: 20px !important;
         }
     }
 
+    .Our-Plan-Process {
+        font-size: 20px !important;
+        line-height: 30px !important;
+        // margin-top: 40px !important;
+        margin-bottom: 30px !important;
+        margin-top: 13% !important;
+    }
+
     .S-card {
-        height: 485px !important;
+        height: 93.33% !important;
+    }
+
+    .Third-card {
+        // height: 350px !important;
+        // width: 350px !important;
+        // margin: 30px 23px 15px 13px !important;
+        width: 93.33% !important;
+        height: 93.33% !important;
+        margin: 7px 12px 7px 13px !important;
     }
 
     .states-786,
@@ -415,9 +508,15 @@
     }
 
     .last-section {
-        img {
+        .lower-bg-1440 {
             width: 100% !important;
-            height: 500px;
+            height: 500px !important;
+            margin-top: 30px !important;
+
+        }
+
+        .lower-bg-1440-plain {
+            display: none;
         }
     }
 
@@ -425,12 +524,6 @@
         // margin-top: -408px !important;
         margin-top: -55% !important;
         margin-left: 45% !important;
-    }
-
-
-    .End-of-the-page {
-        // margin-top: 293px !important;
-        margin-top: 130px !important;
     }
 
 }
@@ -588,26 +681,15 @@
         margin-left: 253px;
     }
 
-    // .third-page .GET-AHEAD {
-    //     margin-top: -820px !important;
-    // }
+    .third-page .GET-AHEAD {
+        // margin-top: -820px !important;
+        display: none !important;
+    }
 
-    // .third-page .Get-ahead-in-your-In {
-    //     height: 220px;
-    //     margin: 0 0 15px;
-    //     width: 561px !important;
-    // }
-
-    // .third-page .End-of-the-page {
-    //     margin-top: 600px !important;
-    // }
-
-    // .last-section {
-    //     background-image: url("../../img/background-img.png");
-    //     background-repeat: no-repeat;
-    //     background-attachment: fixed;
-    //     background-size: cover;
-    // }
+    .End-of-the-page {
+        // margin-top: 14% !important;
+        margin-top: -4px !important;
+    }
 }
 
 /* Laptop/Desktop styles */
@@ -641,13 +723,32 @@
     }
 
     .GDM-desktop {
-        margin-top: 11%;
+        // // margin-top: 11%;
+        // position: absolute;
+        // width: 78%;
+        // // left: 9%;
+
         position: absolute;
         width: 78%;
-        left: 9%;
+        left: 11%;
+        margin-top: 8%;
     }
 
+    .destop {
+        display: flex;
+    }
 
+    .gdmodel {
+        margin-top: 34px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Global-Delivery-Mode {
+        top: unset !important;
+        left: 42%;
+    }
 
     .third-page {
 
@@ -670,38 +771,64 @@
             width: 35% !important;
         }
 
+        .lower-bg-1440 {
+            display: none;
+        }
+
         // .End-of-the-page {
         //     // margin-top: 14% !important;
-        //     margin-top: 7% !important;
+        //     margin-top: -4px !important;
         // }
     }
 
 }
 
 @media only screen and (min-width: 1020px) and (max-width: 1400px) {
+    .destop {
+        display: flex;
+    }
+
+    .gdmodel {
+        margin-top: 34px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .Global-Delivery-Mode {
-        // position: unset !important;
-        // margin-top: -561px !important;
-        margin-top: -417px !important;
+        // margin-top: -417px !important;
         top: unset !important;
+        left: 42%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1020px) and (max-width: 1300px) {
+    .third-card-sec {
+        grid-template-columns: repeat(3, 1fr) !important;
+
+        .Third-card {
+            margin-bottom: 7% !important;
+        }
     }
 
     .End-of-the-page {
-        // margin-top: 14% !important;
         margin-top: 7% !important;
     }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1301px) {
     .End-of-the-page {
-        // margin-top: 14% !important;
         margin-top: 13% !important;
     }
 
-    .Global-Delivery-Mode {
-        margin-top: -572px !important;
-        top: unset !important;
-    }
+    // .Global-Delivery-Mode {
+    //     margin-top: -572px !important;
+    //     top: unset !important;
+    //     font-size: 30px !important;
+    // }
 }
 
 
@@ -714,10 +841,10 @@
 
 }
 
-@media only screen and (max-width: 2000px) {
+// @media only screen and (min-width: 2000px) {
 
-    .Global-Delivery-Mode {
-        margin-top: -985px !important;
-        top: unset !important;
-    }
-}
+//     .Global-Delivery-Mode {
+//         margin-top: -985px !important;
+//         top: unset !important;
+//     }
+// }
