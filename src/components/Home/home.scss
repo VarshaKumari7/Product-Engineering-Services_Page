@@ -210,7 +210,7 @@
         font-size: 22px !important;
         position: absolute;
         left: 18% !important;
-        top: 55% !important;
+        top: 56% !important;
         line-height: 30px !important;
     }
 
@@ -223,7 +223,7 @@
 
     .content-375 {
         position: absolute;
-        top: 56%;
+        top: 57%;
         color: white;
         text-align: justify;
         word-spacing: 1px;
@@ -462,7 +462,8 @@
     }
 
     .S-card {
-        height: 93.33% !important;
+        height: 470px !important;
+        overflow: scroll;
     }
 
     .Third-card {
@@ -490,7 +491,7 @@
     }
 
     .card .Count-on-the-experts {
-        width: 215px !important;
+        width: 90.33% !important;
     }
 
     .footer-section .-Member-App-Serv {
@@ -652,7 +653,6 @@
         font-size: 12px !important;
         padding: 10px;
         height: 140px;
-        width: 330px;
     }
 
     .third-page .gradient-copy .-NDA-and-IP-Protect {
