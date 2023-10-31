@@ -20,7 +20,7 @@ const ThirdCard = ({ cardcontent }: any) => {
 
 const ChildContent = ({ cont }: any) => {
   return (
-    <div>
+    <div className="child-content">
       <img src={cont.checkbox} alt="Checkbox" />
       <span>{cont.text}</span>
     </div>

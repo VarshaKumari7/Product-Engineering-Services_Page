@@ -2,17 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 
     img {
-        width: 65%;
+        width: 350px;
         object-fit: contain;
+        // margin: 0 100px;
+        margin: 0 10%;
+        height: 200px;
+        margin-bottom: 20px;
     }
 
     .Product-Consulting {
-        width: 520px;
+        width: 88%;
         height: 30px;
-        font-family: Montserrat;
-        font-size: 25px;
+        // font-family: Montserrat;
+        font-size: 20px;
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
@@ -22,8 +27,14 @@
         color: #0f0a4b;
     }
 
+    .consulting {
+        height: 30px;
+        // width: 88%;
+        margin-bottom: 10px
+    }
+
     .Count-on-the-experts {
-        font-family: Montserrat;
+        // font-family: Montserrat;
         font-size: 14px;
         font-weight: normal;
         font-stretch: normal;
@@ -32,6 +43,15 @@
         letter-spacing: normal;
         text-align: justify;
         color: #505050;
+        // width: 550px;
+        height: 130px;
+
+        span {
+            // width: 550px;
+            height: 130px;
+            display: block;
+            line-height: 21px;
+        }
     }
 
 }
@@ -40,6 +60,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    column-gap: 8%;
-    margin: 0 96px 0 96px;
+    column-gap: 9%;
+    margin: 0 130px 0 130px;
 }

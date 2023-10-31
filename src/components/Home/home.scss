@@ -65,11 +65,12 @@
 
     .card-sec {
         display: block !important;
-        margin: 15px 26px 0 27px !important;
+        margin: 0px 22px 0 23px !important;
     }
 
     .second-page .S-card-sec {
         display: block !important;
+        margin-top: 0 !important;
     }
 
     .Our-Plan-Process {
@@ -84,6 +85,7 @@
     .third-page .last-section img {
         width: 100%;
         height: 700px;
+        margin-top: 40px !important;
     }
 
     .B-img-786,
@@ -93,13 +95,6 @@
     .third-page-img-state {
         display: none;
     }
-
-    // .last-section {
-    //     background-image: url("../../img/375-bg-img.png");
-    //     background-repeat: no-repeat;
-    //     background-attachment: fixed;
-    //     background-size: cover;
-    // }
 
     .GET-AHEAD {
 
@@ -145,11 +140,15 @@
         margin: 0 11px 0 31px;
     }
 
+    .card {
+        margin-bottom: 40px !important;
+    }
+
     .card img {
         object-fit: contain;
         // width: 330px !important;
         width: 100% !important;
-        margin: 20px 23px 20px 2px !important;
+        margin: 20px 23px 0px 2px !important;
         height: 200px !important;
     }
 
@@ -163,17 +162,40 @@
 
     .card .Count-on-the-experts {
         font-size: 12px !important;
-        height: 100px !important;
+        height: 120px !important;
         // width: 330px !important;
         width: 100% !important;
+
+        span {
+            width: 100% !important;
+        }
+    }
+
+    .heading-div {
+        height: 20px !important;
+        width: 290px !important;
+
+        .heading {
+            font-size: 16px !important;
+            line-height: 26px !important;
+        }
+    }
+
+    .child-content {
+        height: 20px;
+        line-height: 21px;
+        font-size: 12px;
+        width: 260px;
     }
 
     .footer-section {
         overflow: scroll;
+        margin: 30px 0 30px !important;
 
         .-Member-App-Serv {
             width: 100% !important;
-            padding: 0px 20px !important;
+            padding: 25px 24px !important;
+            font-size: 14px !important;
         }
     }
 
@@ -199,7 +221,6 @@
 
 
     .content-375 {
-
         position: absolute;
         top: 56%;
         color: white;
@@ -294,9 +315,6 @@
     }
 
     .Third-card {
-        // height: 350px !important;
-        // width: 350px !important;
-        // margin: 30px 23px 15px 13px !important;
         width: 93.33% !important;
         height: 93.33% !important;
         margin: 7px 12px 19px 13px !important;
@@ -316,8 +334,6 @@
     }
 
     .third-page .third-card-sec {
-        // margin: 0 20px 29px 20px !important;
-
         .Third-card {
             display: flex;
             flex-direction: column;
@@ -326,6 +342,18 @@
             background-color: #fff;
             height: 350px;
             margin-bottom: 20px;
+
+            .Third-card-img img {
+                height: 150px !important;
+            }
+
+            .child-content {
+                height: 20px;
+                line-height: 21px;
+                font-size: 12px;
+                width: 260px;
+                margin-top: 10px;
+            }
 
             .Content {
                 font-size: 12px !important;
@@ -355,7 +383,7 @@
         .Copyright-2010-202 {
             width: 100% !important;
             height: 30px;
-            font-family: Montserrat;
+            // font-family: Montserrat;
             font-size: 10px;
             font-weight: normal;
             font-stretch: normal;
@@ -379,11 +407,14 @@
 
         .S-card {
             width: 100% !important;
-
             height: 385px !important;
             margin-bottom: 8%;
 
         }
+    }
+
+    .third-card-sec {
+        display: block !important;
     }
 }
 
@@ -450,17 +481,21 @@
         .Supporting-Roles {
             height: 30px;
             margin: 40px 180px 50px;
-            font-family: Montserrat;
+            // font-family: Montserrat;
             font-size: 20px !important;
         }
+    }
+
+    .third-page {
+        margin-top: 99px !important;
+
+
     }
 
     .Our-Plan-Process {
         font-size: 20px !important;
         line-height: 30px !important;
-        // margin-top: 40px !important;
-        margin-bottom: 30px !important;
-        // margin-top: 13% !important;
+        margin: 40px 60px !important;
     }
 
     .S-card {
@@ -477,27 +512,60 @@
         // width: 350px !important;
         // margin: 30px 23px 15px 13px !important;
         width: 93.33% !important;
-        height: 93.33% !important;
+        height: 100% !important;
         margin: 7px 12px 7px 13px !important;
+
+        .heading-div {
+            height: 20px !important;
+            margin: 10px 0 0px 30px !important;
+        }
+
     }
 
-    .states-786,
-    .third-page-img-state {
-        width: 100% !important;
+    .third-page-imgs {
+        margin: 0px 41px 0px 41px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+    }
+
+    .third-page-img1 {
+        // width: 704px;
+        height: 286px;
+    }
+
+    .states-786 {
+        width: 690px;
+        height: 199px;
+        margin: 0px 48px;
+    }
+
+    .third-page-img-state,
+    .states-786 {
+        width: 100% !important;
     }
 
     .third-page-img-state {
         height: 38vh !important;
+        width: 100% !important;
     }
 
-    .third-page-img1 {
-        width: 55% !important;
-        height: 39vh !important;
-    }
+    // .third-page-img1 {
+    //     height: 39vh !important;
+    //     // margin: 0px 41px 0px 41px;
+    // }
 
     .card .Count-on-the-experts {
         width: 90.33% !important;
+    }
+
+    .child-content {
+        height: 20px;
+        line-height: 21px;
+        font-size: 12px;
+        width: 260px;
+        margin-top: 10px;
     }
 
     .footer-section .-Member-App-Serv {
@@ -518,7 +586,7 @@
         .lower-bg-1440 {
             width: 100% !important;
             height: 500px !important;
-            margin-top: 30px !important;
+            margin-top: 53px !important;
 
         }
 
@@ -533,6 +601,9 @@
         margin-left: 45% !important;
     }
 
+    .Thirdpage-footer-section {
+        overflow-x: scroll;
+    }
 }
 
 /* Tablet styles */
@@ -578,7 +649,7 @@
         width: 65%;
         height: 80px !important;
         margin: 0 0 79px;
-        font-family: Montserrat;
+        // font-family: Montserrat;
         font-size: 30px !important;
         line-height: 37px !important;
         margin-top: -235px !important;
@@ -637,6 +708,10 @@
 
     }
 
+    .card-img {
+        display: contents !important;
+    }
+
     .card-sec {
         column-gap: 0% !important;
         padding: 10px 19px 0 14px !important;
@@ -644,8 +719,9 @@
     }
 
     .card img {
-        width: 60%;
+        width: 60% !important;
         object-fit: contain;
+        margin: 0 108px 0px 60px !important;
     }
 
     .card .Product-Consulting {
@@ -655,10 +731,11 @@
         line-height: 1.4;
     }
 
-    .card .Count-on-the-experts {
+    .card .Count-on-the-experts span {
         font-size: 12px !important;
-        padding: 10px;
-        height: 140px;
+        padding: 0px 10px !important;
+        height: 140px !important;
+        line-height: 16px !important;
     }
 
     .third-page .gradient-copy .-NDA-and-IP-Protect {
@@ -680,6 +757,7 @@
 
     .third-page .third-card-sec {
         grid-template-columns: repeat(2, 1fr) !important;
+        grid-row-gap: 30px !important;
     }
 
     .third-page .gradient-copy .-NDA-and-IP-Protect {
@@ -758,14 +836,24 @@
 
     .third-page {
 
+        .third-page-img {
+            // margin: 0 180px;
+            margin: 0 12%;
+            width: 75% !important;
+        }
+
         .last-section img {
             width: 100% !important;
+            margin-top: 60px !important;
+        }
+
+        .Third-card {
+            height: 470px !important;
         }
 
 
-
         .GET-AHEAD {
-            margin-left: 43% !important;
+            margin-left: 55% !important;
             margin-top: -29% !important;
         }
 
@@ -779,6 +867,19 @@
 
         .lower-bg-1440 {
             display: none;
+        }
+
+        .heading-div {
+            height: 20px !important;
+            margin: 10px 0 0px 30px !important;
+
+            .child-content {
+                height: 20px !important;
+                line-height: 21px !important;
+                font-size: 14px !important;
+                width: 260px !important;
+                margin-top: 10px !important;
+            }
         }
 
         // .End-of-the-page {

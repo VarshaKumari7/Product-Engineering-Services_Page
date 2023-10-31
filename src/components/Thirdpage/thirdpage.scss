@@ -4,8 +4,8 @@
     left: 0;
 
     .Our-Plan-Process {
-        margin: 22px 0px 19px;
-        font-family: Montserrat;
+        margin: 22px 0px 50px;
+        // font-family: Montserrat;
         font-size: 30px;
         font-weight: 600;
         font-stretch: normal;
@@ -42,7 +42,7 @@
             // width: 320px;
             // height: 78px;
             // margin: 12px 0 10px 11px;
-            // font-family: Montserrat;
+            //  // font-family: Montserrat;
             // font-size: 12px;
             // font-weight: normal;
             // font-stretch: normal;
@@ -55,7 +55,7 @@
             /* width: 320px; */
             // height: 78px;
             margin: 12px 0 10px 11px;
-            font-family: Montserrat;
+            // font-family: Montserrat;
             font-size: 12px;
             font-weight: normal;
             font-stretch: normal;
@@ -79,7 +79,7 @@
 
     .Thirdpage-footer-section {
         width: 100%;
-        height: 8vh;
+        height: 100px;
         margin: -5px 0 40px;
         padding: 25px 0px;
         background-color: #0f0a4b;
@@ -87,11 +87,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: scroll;
+        // overflow: scroll;
 
         .-Certified-BI-Exp {
             width: 100%;
-            // font-family: Montserrat;
+            //  // font-family: Montserrat;
             font-size: 14px;
             font-weight: 500;
             font-stretch: normal;
@@ -100,8 +100,8 @@
             letter-spacing: normal;
             text-align: center;
             color: #fff;
-            padding: 20px 15px;
-            // overflow: hidden;
+            padding: 25px 15px;
+            overflow: unset;
         }
     }
 
@@ -128,26 +128,19 @@
     // }
 
     .GET-AHEAD {
-        // position: absolute;
-        // top: 74%;
-        // left: 53%;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-        // width: 38%;
-        // position: absolute;
         top: 74%;
         left: 51%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 216px;
-        // width: 39%;
+        height: 220px;
+        // width: 550px;
+        width: 37%;
     }
 
     .Get-ahead-in-your-In {
         // margin: 0 0 15px;
-        // // font-family: MontserratRoman-Bold;
+        // //  // font-family: MontserratRoman-Bold;
         // font-size: 29px;
         // font-weight: bold;
         // font-stretch: normal;
@@ -188,6 +181,7 @@
         padding: 7px 1px;
         border-radius: 25px;
         background-color: #f8e71c;
+        text-align: center;
     }
 
     .Get-In-Touch {
@@ -206,6 +200,7 @@
         margin-top: 165px;
         background-color: #131313;
         padding: 20px;
+        text-align: center;
 
         img {
             height: 7vh;
@@ -218,8 +213,8 @@
         .Copyright-2010-202 {
             width: 350px;
             height: 30px;
-            font-family: Montserrat;
-            font-size: 10px;
+            // font-family: Montserrat;
+            font-size: 12px;
             font-weight: normal;
             font-stretch: normal;
             font-style: normal;

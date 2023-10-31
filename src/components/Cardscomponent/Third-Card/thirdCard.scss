@@ -17,7 +17,7 @@
 
   .heading-div {
     height: 35px;
-    margin: 10px 0 11px 0;
+    margin: 10px 0 11px 30px;
   }
 
   .heading {
@@ -35,7 +35,7 @@
   }
 
   .Content {
-    font-family: Montserrat;
+    //  // font-family: Montserrat;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -44,7 +44,15 @@
     letter-spacing: normal;
     text-align: justify;
     color: #505050;
-    padding-left: 37px;
+    padding-left: 30px;
+
+    .child-content {
+      height: 20px;
+      line-height: 21px;
+      font-size: 14px;
+      width: 260px;
+      margin-top: 13px;
+    }
 
     img {
       width: 4%;
@@ -54,5 +62,7 @@
     span {
       margin-left: 10px;
     }
+
+
   }
 }

@@ -6,7 +6,7 @@ const Card = ({ ele }: any) => {
       <div className="card-img">
         <img src={ele.img} />
       </div>
-      <div>
+      <div className="consulting">
         <span className="Product-Consulting">{ele.heading}</span>
       </div>
       <div className="Count-on-the-experts">
