@@ -43,12 +43,12 @@
         margin: 20px 0 15px 20px !important;
     }
 
-    .header-contact .Rectangle .try-free {
-        font-size: 10px !important;
-        border-radius: 38px !important;
-        padding: 6px 17px !important;
-        margin: 15px 10px !important;
-    }
+    // .header-contact .Rectangle .try-free {
+    //     font-size: 10px !important;
+    //     border-radius: 38px !important;
+    //     padding: 6px 17px !important;
+    //     margin: 15px 10px !important;
+    // }
 
     .Rectangle {
         display: flex;
@@ -98,11 +98,26 @@
 
     .GET-AHEAD {
 
-        top: 84% !important;
-        left: 51% !important;
-        // width: 35% !important;
-        margin-top: -380px;
+        left: 0% !important;
+        margin-top: -376px !important;
+        position: relative !important;
+        top: 0px !important;
+        width: 100% !important;
+
+        .Get-ahead-in-your-In {
+            font-size: 29px !important;
+            font-family: Montserrat !important;
+            font-size: 29px !important;
+            font-weight: 600 !important;
+        }
+
+        .Rectangle-2-Copy-10 {
+            width: 75% !important;
+            margin-top: 32px;
+        }
     }
+
+
 
     .Consult-With-Our-Exp {
         font-size: 16px !important;
@@ -363,12 +378,7 @@
         }
     }
 
-    .Rectangle-2-Copy-10 {
-        width: 71% !important;
-        padding: 7px 1px;
-        border-radius: 25px;
-        background-color: #f8e71c;
-    }
+
 
     .lower-bg-1440,
     .lower-bg-1440-plain {
@@ -376,7 +386,7 @@
     }
 
     .third-page .End-of-the-page {
-        margin-top: 160px !important;
+        margin-top: 150px !important;
 
 
 
@@ -778,10 +788,6 @@
 
 /* Laptop/Desktop styles */
 @media only screen and (min-width: 1024px) {
-
-    // * {
-    //     background-color: red
-    // }
     .second-page {
         position: unset !important;
 
@@ -835,6 +841,10 @@
     }
 
     .third-page {
+
+        .third-card-sec {
+            margin: 0 82px !important;
+        }
 
         .third-page-img {
             // margin: 0 180px;
@@ -948,10 +958,9 @@
 
 }
 
-// @media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2100px) {
 
-//     .Global-Delivery-Mode {
-//         margin-top: -985px !important;
-//         top: unset !important;
-//     }
-// }
+    .End-of-the-page {
+        margin-top: 20% !important;
+    }
+}
