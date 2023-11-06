@@ -3,7 +3,6 @@ import "../Popup/popup.scss";
 import { Dialog, TextField } from "@mui/material";
 import ThankYou from "./Thankyou";
 const StayConncetedWithUs = ({ handleClose, open }: any) => {
-  const [openThank, setOpenThank] = useState(false);
   const [formData, setFormData] = React.useState({
     full_name: "",
     work_email_address: "",
@@ -14,7 +13,7 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
-
+  const [openThank, setOpenThank] = useState(false);
   const submitHandler = () => {
     console.log("Form Data:", formData);
     setFormData({
@@ -24,63 +23,58 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
     });
     setOpenThank(true);
   };
-
   const handleCloseThank = () => {
     setOpenThank(false);
   };
   return (
-    <Dialog
-      open={open}
-      onClose={handleClose}
-      style={{ height: "430px" }}
-      className="connected"
-    >
-      <div className="Rectangle-1">
+    <Dialog open={open} onClose={handleClose} style={{ maxHeight: "430px" }}>
+      <div className="Rectangle-1 connected" style={{ height: "430px" }}>
         <div className="headings">
           <span className="Try-Free-Pilot-For-1">Stay Connected With us</span>
           <img src={require("../Popup/cancel.png")} onClick={handleClose} />
         </div>
-        {/* <div className="Full-Name">Full Name</div> */}
-        <TextField
-          className="Full-Name"
-          variant="standard"
-          type="text"
-          value={formData.full_name}
-          name="full_name"
-          onChange={handleInputChange}
-          label="Full Name"
-        />
+        <div className="body-content">
+          <span className="Full-Name">
+            Full Name<span className="text-style-1">*</span>
+          </span>
+          <TextField
+            variant="standard"
+            type="text"
+            value={formData.full_name}
+            name="full_name"
+            onChange={handleInputChange}
+          />
 
-        {/* <div className="Work-Email-Address">Work Email Address</div> */}
-
-        <TextField
-          className="Work-Email-Address"
-          variant="standard"
-          type="text"
-          value={formData.work_email_address}
-          name="work_email_address"
-          onChange={handleInputChange}
-          label="Work Email Address"
-        />
-
-        {/* <div className="Company-Name">Company Name</div> */}
-
-        <TextField
-          className="Company-Name"
-          variant="standard"
-          type="text"
-          value={formData.company_name}
-          name="company_name"
-          onChange={handleInputChange}
-          label="Company Name"
-        />
-
+          <span className="Work-Email-Address">
+            Work Email Address<span className="text-style-1">*</span>
+            <div className="Line-Copy-36">
+              <TextField
+                variant="standard"
+                type="text"
+                value={formData.work_email_address}
+                name="work_email_address"
+                onChange={handleInputChange}
+              />
+            </div>
+          </span>
+          <span className="Company-Name">
+            Company Name<span className="text-style-1">*</span>
+          </span>
+          <div className="Line-Copy-36">
+            <TextField
+              variant="standard"
+              type="text"
+              value={formData.company_name}
+              name="company_name"
+              onChange={handleInputChange}
+            />
+          </div>
+        </div>
         <div className="Rectangle-2-Copy-11">
           <input type="checkbox" />
           <span className="By-submitting-this-i">
-            <span>By submitting this information you agree to our </span>
-            <span className="text-style-1">Term of Service</span>
-            <span> and </span>
+            By submitting this information you agree to our
+            <span className="text-style-1">Term of Service</span>and
             <span className="text-style-2">Privacy Policy</span>
           </span>
         </div>

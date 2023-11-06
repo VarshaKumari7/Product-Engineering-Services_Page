@@ -5,6 +5,7 @@
     margin-right: 12px !important;
     border-radius: 16px !important;
     margin-top: 50px !important;
+    margin-bottom: 0 !important;
 }
 
 .Rectangle-1 {
@@ -281,17 +282,11 @@
         font-size: 10px !important;
     }
 
-    .MuiFormControl-root // .MuiTextField-root,
-
-    // .Full-Name,
-    // .css-1u3bzj6-MuiFormControl-root-MuiTextField-root
-        {
+    .MuiFormControl-root {
         width: 100% !important;
     }
 
-    .Company-Name .text-style-1,
-    .Work-Email-Address .text-style-1,
-    .Full-Name .text-style-1 {
+    .text-style-1 {
         color: #d0021b;
     }
 }
@@ -353,6 +348,10 @@
 @media only screen and (max-width: 325px) {
     .Rectangle-1 .body-content {
         margin-top: 48px !important;
+    }
+
+    .body-content {
+        margin-top: 23px !important;
     }
 
     .Rectangle-1 .Rectangle-2-Copy-10 .Submit {
