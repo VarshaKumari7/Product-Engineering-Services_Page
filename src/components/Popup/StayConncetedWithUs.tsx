@@ -27,7 +27,12 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
     setOpenThank(false);
   };
   return (
-    <Dialog open={open} onClose={handleClose} style={{ maxHeight: "430px" }}>
+    <Dialog
+      open={open}
+      onClose={handleClose}
+      style={{ maxHeight: "430px" }}
+      className="stayconnected"
+    >
       <div className="Rectangle-1 connected" style={{ height: "430px" }}>
         <div className="headings">
           <span className="Try-Free-Pilot-For-1">Stay Connected With us</span>
