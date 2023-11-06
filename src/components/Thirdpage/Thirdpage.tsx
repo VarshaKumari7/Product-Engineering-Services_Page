@@ -2,30 +2,14 @@ import "../Thirdpage/thirdpage.scss";
 import { thirdCardData } from "../../datafile/ThirdCardData";
 import ThirdCard from "../Cardscomponent/Third-Card/Third-card";
 import { useEffect, useState } from "react";
+import StayConncetedWithUs from "../Popup/StayConncetedWithUs";
 
 const Thirdpage = () => {
-  const [isDesktop, setDesktop] = useState(window.innerWidth >= 1024);
-  const [screenWidth, setScreenWidth] = useState(window.screen.width);
-
-  const currentScreenWidth = () => {
-    setScreenWidth(() => window.innerWidth);
-    console.log("Screen Size ", screenWidth);
+  const [open, setOpen] = useState(false);
+  const getInTouch = () => {
+    console.log("Get In Touch");
+    setOpen(true);
   };
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth >= 1024);
-    console.log("uetuiufqhhj", isDesktop);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", currentScreenWidth);
-    return () => window.removeEventListener("resize", currentScreenWidth);
-  }, [currentScreenWidth]);
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  }, [screenWidth]);
   return (
     <div className="third-page">
       <div className="Our-Plan-Process">Our Plan & Process</div>
@@ -175,7 +159,15 @@ const Thirdpage = () => {
               Advanced Tech-Driven Future with Us.
             </span>
             <div className="Rectangle-2-Copy-10">
-              <span className="Get-In-Touch">Get In Touch</span>
+              <span className="Get-In-Touch" onClick={getInTouch}>
+                Get In Touch
+              </span>
+              {open && (
+                <StayConncetedWithUs
+                  open={open}
+                  handleClose={() => setOpen(false)}
+                />
+              )}
             </div>
           </div>
         </div>
