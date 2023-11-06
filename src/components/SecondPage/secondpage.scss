@@ -1,54 +1,107 @@
-.second-page{
-    
-        .Supporting-Roles {
-            height: 30px;
-                margin: 40px 180px 50px;
-                font-family: Montserrat;
-                font-size: 17px;
-                font-weight: 600;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.33;
-                letter-spacing: normal;
-                text-align: center;
-                color: #0f0a4b;
-                margin-bottom: 2%;
-            }
-            .S-card-sec {
-                display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    margin: 0 0% 3% 0%;
-                    // flex-direction: column;
-            }
-            .B-img{
-                position: absolute;
-                left: 0;
-                width: 100%;
-            }
-            .GDM_img{
-                    position: absolute;
-                    left: 13%;
-                    // top: 262%;
-                    top: 229%;
-                    width: 74%;
-            }
-                .Global-Delivery-Mode {
-                    // width: 1080px;
-                    // height: 40px;
-                    // margin: 0 0 69px;
-                font-family: Montserrat;
-                    font-size: 24px;
-                    font-weight: 600;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 1.33;
-                    letter-spacing: normal;
-                    text-align: center;
-                    color: #04aaff;
-                    position: absolute;
-                    left: 38%;
-                    // top: 252%;
-                    top: 220%;
-                }
+.second-page {
+  position: absolute;
+  top: 240%;
+
+  .Supporting-Roles {
+    height: 30px;
+    margin: 40px 180px 50px;
+    // font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f0a4b;
+    margin-bottom: 2%;
+  }
+
+  .S-card-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0% 2% 0%;
+    margin-top: 50px;
+  }
+
+  .B-img {
+    // position: absolute;
+    // left: 0;
+    // width: 100%;
+    // position: absolute;
+    // left: 0;
+    width: 100%;
+    // top: 106%;
+  }
+
+  .content-375 {
+
+
+
+    .Rectangle-375 {
+      width: 320px;
+      height: 40px;
+      margin: 26px 10px 20px 18px;
+      padding: 0 0 0 20px;
+      border-radius: 10px;
+      border: solid 1px #f8e71c;
+
+      .Onsite {
+        width: 300px;
+        height: 40px;
+        // font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.22;
+        letter-spacing: normal;
+        color: #f8e71c;
+      }
+    }
+
+    .Reducing-the-service {
+      position: absolute;
+      left: 30px;
+      // top: 2%;
+      margin-top: 10px;
+    }
+
+    .text-inbox img {
+      position: relative;
+      width: 100%;
+
+    }
+  }
+
+  .GDM_img {
+    // position: absolute;
+    // left: 13%;
+    // // top: 262%;
+    // top: 245%;
+    // width: 74%;
+    position: absolute;
+    left: 13%;
+    top: 137%;
+    width: 74%;
+  }
+
+  .Global-Delivery-Mode {
+    // font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #04aaff;
+    position: absolute;
+    left: 38%;
+    // top: 252%;
+    // top: 237%;
+    left: 42%;
+    top: 123%;
+  }
 }

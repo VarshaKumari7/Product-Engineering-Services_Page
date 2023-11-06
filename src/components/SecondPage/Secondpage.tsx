@@ -1,42 +1,146 @@
 import SecondCard from "../Cardscomponent/SecondCard/Secondcard";
-import { SecondCardData } from "../Cardscomponent/carddata/SecondCardData";
+import { secondCardData } from "../../datafile/SecondCardData";
 import "../SecondPage/secondpage.scss";
+import { useEffect, useState } from "react";
 
 const Secondpage = () => {
+  // const [isDesktop, setDesktop] = useState(window.innerWidth >= 1024);
+  // const [screenWidth, setScreenWidth] = useState(window.screen.width);
+
+  // const currentScreenWidth = () => {
+  //   setScreenWidth(() => window.innerWidth);
+  //   console.log("Screen Size ", screenWidth);
+  // };
+
+  // const updateMedia = () => {
+  //   setDesktop(window.innerWidth >= 1024);
+  //   console.log("uetuiufqhhj", isDesktop);
+  // };
+
+  // useEffect(() => {
+  //   window.addEventListener("resize", currentScreenWidth);
+  //   return () => window.removeEventListener("resize", currentScreenWidth);
+  // }, [screenWidth]);
+
+  // useEffect(() => {
+  //   window.addEventListener("resize", updateMedia);
+  //   return () => window.removeEventListener("resize", updateMedia);
+  // }, [screenWidth]);
   return (
     <div className="second-page">
       <div className="Supporting-Roles">Supporting Roles</div>
       <div className="S-card-sec">
-        {SecondCardData.map((ele: any, index: number) => {
-          return (
-            <SecondCard
-              key={index}
-              // img={ele.img}
-              // content={ele.content}
-              // heading={ele.heading}
-            />
-          );
+        {secondCardData.map((cardData: any, index: number) => {
+          return <SecondCard key={index} cardData={cardData} />;
         })}
       </div>
       <div className="G-D-Model">
-        <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/004D929F-346E-4103-A4EE-13088E825D3A.png"
-          className="B-img"
-        />
-        {/* <img
-          src="img/bitmap-copy-4.png"
-          srcSet="img/bitmap-copy-4@2x.png 2x,
-             img/bitmap-copy-4@3x.png 3x"
-          className="G-D-Model-img"
-        ></img> */}
-        <div>
-          <span className="Global-Delivery-Mode">Global Delivery Model</span>
-        </div>
-        <div>
+        <div className="destop">
+          {/* {isDesktop ? (
+            <> */}
           <img
-            src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/77A65C9C-3148-406D-8538-E1C149D8AB1E-optimized.png"
-            className="GDM_img"
+            src={require("../../img/GDM-bg-1440.png")}
+            className="B-img-786"
           />
+          <div className="gdmodel">
+            <div className="spanmsg">
+              <span className="Global-Delivery-Mode">
+                Global Delivery Model
+              </span>
+            </div>
+            <img
+              src={require("../../img/GDM-desktop.png")}
+              className="GDM-desktop"
+            />
+          </div>
+
+          {/* </>
+          ) : (
+            <> */}
+          <img
+            src={require("../../img/GDM-bg-375.png")}
+            className="B-img-375"
+          />
+
+          <div className="content-375">
+            <div className="Rectangle-375">
+              <span className="Onsite">Onsite</span>
+            </div>
+
+            <span className="Customer-facing-SME">
+              Customer facing, SME's, Project Management, Consultants,
+              Architects, Business Analysts and Technical Support Resources
+            </span>
+            <div className="Rectangle-375">
+              <span className="Onsite">Offshore</span>
+            </div>
+
+            <span className="Customer-facing-SME">
+              Offshore delivery and support for better cost savings and
+              scalability. Regulated offshore development with client driven
+              process. Staged transition for large scale projects.
+            </span>
+
+            <div>
+              <img
+                src={require("../../img/375-img1.png")}
+                className="GDM_img"
+              />
+            </div>
+
+            <div className="small-text-container">
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  Reducing the Service cost by 20% or more
+                </span>
+              </div>
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  Rapid Scalability of Resources
+                </span>
+              </div>
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  Best Practices & Highest Quality Standards
+                </span>
+              </div>
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  24/7 Support Capability
+                </span>
+              </div>
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  Lowering Total Cost Of Ownership
+                </span>
+              </div>
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  Offshore Dedicated Centers
+                </span>
+              </div>
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  Reducing the Service cost by 20% or more
+                </span>
+              </div>
+              <div className="text-inbox">
+                <img src={require("../../img/375-img2.webp")} />
+                <span className="Reducing-the-Service">
+                  Reducing the Service cost by 20% or more
+                </span>
+              </div>
+            </div>
+          </div>
+          {/* </>
+          )} */}
         </div>
       </div>
     </div>

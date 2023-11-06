@@ -1,49 +1,44 @@
-.S-card{
-                display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    margin: 0 0% 3% 0%;
-                    flex-direction: column;
-                    width: 27%;
-    
-            img {
-                width: 100%;
-                object-fit: contain;
-            }
-    
-            .User-Researchers {
-                width: 520px;
-                height: 30px;
-                font-family: Montserrat;
-                font-size: 25px;
-                font-weight: 500;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.4;
-                letter-spacing: normal;
-                text-align: center;
-                color: #0f0a4b;
-            }
-    
-            .To-ensure-the-user-r {
-                font-family: Montserrat;
-                font-size: 14px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.5;
-                letter-spacing: normal;
-                text-align: justify;
-                color: #505050;
-            }
-    
-        
-    
-        // .card-sec {
-        //     display: grid;
-        //     grid-template-columns: repeat(2, 1fr);
-        //     justify-items: center;
-        //     column-gap: 8%;
-        //     margin: 0 96px 0 96px;
-        // }
+.S-card {
+  display: flex;
+  align-items: center;
+  //   margin: 0 0% 3% 0%;
+  flex-direction: column;
+  width: 27%;
+  // height: 370px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+    padding-bottom: 8px;
+  }
+
+  .User-Researchers {
+    width: 520px;
+    height: 30px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f0a4b;
+  }
+
+  .To-ensure-the-user-r {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #505050;
+    padding: 10px 21px;
+  }
 }

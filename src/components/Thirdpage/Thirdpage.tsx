@@ -1,75 +1,155 @@
 import "../Thirdpage/thirdpage.scss";
-import { ThirdCardData } from "../Cardscomponent/carddata/ThirdCardData";
+import { thirdCardData } from "../../datafile/ThirdCardData";
 import ThirdCard from "../Cardscomponent/Third-Card/Third-card";
+import { useEffect, useState } from "react";
+import StayConncetedWithUs from "../Popup/StayConncetedWithUs";
 
 const Thirdpage = () => {
+  const [open, setOpen] = useState(false);
+  const getInTouch = () => {
+    console.log("Get In Touch");
+    setOpen(true);
+  };
   return (
     <div className="third-page">
       <div className="Our-Plan-Process">Our Plan & Process</div>
       <div>
+        {/* {isDesktop ? (
+          <> */}
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/4557A9D3-0554-4E26-BD30-8405A55C9D98.png"
-          className="third-page-img1"
+          src={require("../../img/States-1440.png")}
+          className="third-page-img"
         ></img>
+        {/* <img
+          src={require("../../img/get-started-1440.png")}
+          className="third-page-img"
+        ></img> */}
+
+        {/* </>
+        ) : (
+          <> */}
+        <div className="third-page-imgs">
+          <img
+            src={require("../../img/375-img3.png")}
+            className="third-page-img1"
+          ></img>
+          <img
+            src={require("../../img/states-786.png")}
+            className="states-786"
+          ></img>
+          <img
+            src={require("../../img/375-img4.png")}
+            className="third-page-img2"
+          ></img>
+        </div>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/63385C9A-F5AA-4987-A9BD-199EDBFF465B.png"
-          className="third-page-img2"
+          src={require("../../img/get-started-1440.png")}
+          className="third-page-img-state"
         ></img>
+        <div className="gradient-copy">
+          <div className="new-content">
+            <img src={require("../../img/375-img5.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • NDA and IP Protection <br></br>• Master Services Agreement{" "}
+              <br></br>• Statement of Work
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img6.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • Work Closely with Customers <br></br>• IP Protection Agreements
+              with Every Resource <br></br>• Induction
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img7.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • (on-site/ offshore) <br></br>• Understand the Technology,
+              Requirements, Processe-plains and build good working relationship
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img8.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • Network and Servers <br></br>• Security and IP Protection{" "}
+              <br></br>• Source Control <br></br>• Collaboration Tools <br></br>{" "}
+              • Development Tools <br></br>• Environments Set up
+            </span>
+          </div>
+          <div className="new-content">
+            <img src={require("../../img/375-img9.png")} />
+            <span className="-NDA-and-IP-Protect">
+              • Communication <br></br>• Requirements <br></br>• Dev Tools &
+              Frameworks set up <br></br>• Technical Documents <br></br>• Coding
+              Standards & Process <br></br>• Code Review & Intermediate Release
+              Plan <br></br>• Release Management
+            </span>
+          </div>
+          <div className="get-started">
+            <img src={require("../../img/375-img10.png")} />
+          </div>
+        </div>
+        {/* </>
+        )} */}
       </div>
+
       <div className="Thirdpage-footer-section">
         <span className="-Certified-BI-Exp">50+ Certified BI Experts</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          // src={require("../../img/vector.svg")}
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Innovation Labs</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Data Visualization</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Data Governance</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">Industry Specific Solutions</span>
         <img
-          src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/832391AB-3BA8-49FD-8BAB-79EF62699D9C.svg"
-          srcSet="img/group-14-copy@2x.png 2x,
-             img/group-14-copy@3x.png 3x"
+          src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
         <span className="-Certified-BI-Exp">
           5+ years of experience in Data Science
         </span>
       </div>
-      <div>
+      <div className="our-plan">
         <div className="Our-Plan-Process">Features at a Glance</div>
         <div className="third-card-sec">
-          {ThirdCardData.map((ele: any, index) => {
-            return (
-              <ThirdCard
-                key={index}
-                // cardcontent={ele}
-              />
-            );
+          {thirdCardData.map((cardcontent: any, index) => {
+            return <ThirdCard key={index} cardcontent={cardcontent} />;
           })}
         </div>
         <div className="last-section">
-          <img src="https://cdn.zeplin.io/62a1cde9af45ee109f8a9b56/assets/9BEABA06-2DF4-439A-A1A5-1ADCA7E60B5A.png" />
+          {/* <div>
+            {isDesktop ? ( */}
+          <img
+            src={require("../../img/lower-bg-1440.png")}
+            className="lower-bg-1440-plain"
+          />
+          <img
+            src={require("../../img/lower-786.png")}
+            className="lower-bg-1440"
+          />
+          {/* ) : ( */}
+          <img
+            src={require("../../img/lower-bg-375.png")}
+            className="lower-bg-375"
+          />
+          {/* )}
+          </div> */}
+
           <div className="GET-AHEAD">
             <span className="Get-ahead-in-your-In">
               <span className="text-style-1">Get ahead in your Industry</span>
@@ -79,15 +159,23 @@ const Thirdpage = () => {
               Advanced Tech-Driven Future with Us.
             </span>
             <div className="Rectangle-2-Copy-10">
-              <span className="Get-In-Touch">Get In Touch</span>
+              <span className="Get-In-Touch" onClick={getInTouch}>
+                Get In Touch
+              </span>
+              {open && (
+                <StayConncetedWithUs
+                  open={open}
+                  handleClose={() => setOpen(false)}
+                />
+              )}
             </div>
           </div>
         </div>
       </div>
-      <div className="End-of the-page">
+      <div className="End-of-the-page">
         <span className="Copyright-2010-202">
-          Copyright © 2010-2021 Binary Informatics Pvt. Ltd. | Company All
-          rights reserved | Privacy Policy
+          Copyright © 2010-2021 Binary Informatics Pvt. Ltd. Company All rights
+          reserved | Privacy Policy
         </span>
       </div>
     </div>

@@ -1,37 +1,68 @@
 .Third-card {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  // height: 470px;
+  height: 95%;
+  // width: 300px;
+  width: 93.33%;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+    // margin-bottom: 11px;
+  }
+
+  .heading-div {
+    height: 35px;
+    margin: 10px 0 11px 30px;
+  }
+
+  .heading {
+    width: 520px;
+    height: 30px;
+    font-family: revert;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    // line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f0a4b;
+  }
+
+  .Content {
+    //  // font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #505050;
+    padding-left: 30px;
+
+    .child-content {
+      height: 20px;
+      line-height: 21px;
+      font-size: 14px;
+      width: 260px;
+      margin-top: 13px;
+    }
 
     img {
-        width: 65%;
-        object-fit: contain;
+      width: 4%;
+      object-fit: contain;
     }
 
-    .heading {
-        width: 520px;
-        height: 30px;
-        font-family: Montserrat;
-        font-size: 25px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.4;
-        letter-spacing: normal;
-        text-align: center;
-        color: #0f0a4b;
+    span {
+      margin-left: 10px;
     }
 
-    .Content {
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: justify;
-        color: #505050;
-    }
 
+  }
 }
-
