@@ -14,20 +14,10 @@ const Thirdpage = () => {
     <div className="third-page">
       <div className="Our-Plan-Process">Our Plan & Process</div>
       <div>
-        {/* {isDesktop ? (
-          <> */}
         <img
           src={require("../../img/States-1440.png")}
           className="third-page-img"
         ></img>
-        {/* <img
-          src={require("../../img/get-started-1440.png")}
-          className="third-page-img"
-        ></img> */}
-
-        {/* </>
-        ) : (
-          <> */}
         <div className="third-page-imgs">
           <img
             src={require("../../img/375-img3.png")}
@@ -89,14 +79,11 @@ const Thirdpage = () => {
             <img src={require("../../img/375-img10.png")} />
           </div>
         </div>
-        {/* </>
-        )} */}
       </div>
 
       <div className="Thirdpage-footer-section">
-        <span className="-Certified-BI-Exp">50+ Certified BI Experts</span>
+        <span className="-Member-margin">50+ Certified BI Experts</span>
         <img
-          // src={require("../../img/vector.svg")}
           src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
@@ -120,7 +107,7 @@ const Thirdpage = () => {
           src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
-        <span className="-Certified-BI-Exp">
+        <span className="-Member-margin-right">
           5+ years of experience in Data Science
         </span>
       </div>
@@ -132,42 +119,38 @@ const Thirdpage = () => {
           })}
         </div>
         <div className="last-section">
-          {/* <div>
-            {isDesktop ? ( */}
-          <img
+          {/* <img
             src={require("../../img/lower-bg-1440.png")}
             className="lower-bg-1440-plain"
-          />
+          /> */}
           <img
             src={require("../../img/lower-786.png")}
             className="lower-bg-1440"
           />
-          {/* ) : ( */}
           <img
             src={require("../../img/lower-bg-375.png")}
             className="lower-bg-375"
           />
-          {/* )}
-          </div> */}
-
-          <div className="GET-AHEAD">
-            <span className="Get-ahead-in-your-In">
-              <span className="text-style-1">Get ahead in your Industry</span>
-              <span className="text-style-2">
-                & Take Your Enterprise to a more
+          <div className="get-background">
+            <div className="GET-AHEAD">
+              <span className="Get-ahead-in-your-In">
+                <span className="text-style-1">Get ahead in your Industry</span>
+                <span className="text-style-2">
+                  & Take Your Enterprise to a more
+                </span>
+                Advanced Tech-Driven Future with Us.
               </span>
-              Advanced Tech-Driven Future with Us.
-            </span>
-            <div className="Rectangle-2-Copy-10">
-              <span className="Get-In-Touch" onClick={getInTouch}>
-                Get In Touch
-              </span>
-              {open && (
-                <StayConncetedWithUs
-                  open={open}
-                  handleClose={() => setOpen(false)}
-                />
-              )}
+              <div className="Rectangle-2-Copy-10">
+                <span className="Get-In-Touch" onClick={getInTouch}>
+                  Get In Touch
+                </span>
+                {open && (
+                  <StayConncetedWithUs
+                    open={open}
+                    handleClose={() => setOpen(false)}
+                  />
+                )}
+              </div>
             </div>
           </div>
         </div>

@@ -1,52 +1,67 @@
 .man-holding-technology-gear-wheel-interface {
     background-blend-mode: overlay, multiply;
+    background-image: url("../../img/background-img.png");
+    // height: 500px;
+    height: 62vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-    img {
-        // position: absolute;
-        left: 0;
-        width: 100%;
-        height: 500px;
-    }
+    .front {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    .Build-Future-Proof-S {
-        width: 65%;
-        height: 150px;
-        margin: 0 0 79px;
-        font-size: 54px;
-        font-weight: 800;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 80px;
-        letter-spacing: normal;
-        text-align: center;
-        color: #fff;
-        left: 19%;
-        margin-top: -383px;
-        position: absolute;
+        .Build-Future-Proof-S {
+            // width: 65%;
+            // height: 150px;
+            // margin: 0 0 79px;
+            font-size: 54px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 80px;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            // left: 19%;
+            // margin-top: -383px;
+            // position: absolute;
+            padding-left: 12%;
+            padding-right: 12%;
+            // display: block;
+            padding-top: 10%;
 
 
-    }
+        }
 
-    .Build-Future-Proof-S .text-style-1 {
-        color: #f8e71c;
-    }
+        .Build-Future-Proof-S .text-style-1 {
+            color: #f8e71c;
+        }
 
-    .Consult-With-Our-Exp {
-        width: 350px;
-        height: 20px;
-        // font-family: Montserrat;
-        font-size: 20px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 2.2;
-        letter-spacing: normal;
-        text-align: center;
-        color: #0b0e55;
-        background-color: #f8e71c;
-        border-radius: 30px;
-        padding: 15px 31px;
-        cursor: pointer;
+        .Our-Experts {
+            margin-top: 4%;
+            // padding-left: 37.84%;
+            // padding-right: 37.84%;
+
+
+            .Consult-With-Our-Exp {
+                width: 350px;
+                height: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2.2;
+                letter-spacing: normal;
+                text-align: center;
+                color: #0b0e55;
+                background-color: #f8e71c;
+                border-radius: 30px;
+                padding: 15px 31px;
+                cursor: pointer;
+            }
+        }
     }
 }
 
@@ -57,7 +72,7 @@
 
     .Our-Product-Engineer {
         // width: 1080px;
-        height: 40px;
+        // height: 40px;
         margin: 40px 180px;
         // font-family: Montserrat;
         font-size: 30px;
@@ -77,19 +92,41 @@
 .footer-section {
     width: 100%;
     height: 100px;
-    margin: 50px 0 40px;
-    // padding: 25px 0px;
+    // margin-top: 50px;
     background-color: #0f0a4b;
     color: white;
     display: flex;
     align-items: center;
-    // justify-content: space-evenly;
-    // position: absolute;
-    top: 218%;
-    // overflow: hidden;
+    justify-content: space-evenly;
+
+    .-Member-margin {
+        margin-left: 12%;
+        margin-right: 34px;
+
+    }
+
+    .-Member-margin-right {
+        margin-right: 12%;
+        margin-left: 34px;
+
+    }
+
+    .-Member-margin,
+    .-Member-margin-right {
+        font-size: 17px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        // padding: 20px 0px;
+
+    }
 
     .-Member-App-Serv {
-        width: 10%;
+        // width: 10%;
         // font-family: Montserrat;
         font-size: 17px;
         font-weight: 500;
@@ -100,10 +137,85 @@
         text-align: center;
         color: #fff;
         padding: 20px 0px;
+        margin-left: 34px;
+        margin-right: 34px;
 
         .Group-14-Copy {
             height: 52px;
         }
+
+
     }
 
+}
+
+// MEDIA QUERY
+
+@media only screen and (min-width:500px) and (max-width:800px) {
+    .man-holding-technology-gear-wheel-interface {
+        height: 42vh !important;
+
+        .Build-Future-Proof-S {
+            padding-left: 5.47% !important;
+            padding-right: 5.47% !important;
+            padding-top: 7.37% !important;
+            font-size: 30px !important;
+            line-height: 45px !important;
+        }
+
+        .Our-Experts {
+            .Consult-With-Our-Exp {
+                font-size: 16px !important;
+                line-height: 44px !important;
+                padding: 9px 20px !important;
+            }
+        }
+    }
+
+
+    .Our-Product {
+        .Our-Product-Engineer {
+            font-size: 20px !important;
+        }
+    }
+
+    .footer-section {
+        overflow-x: scroll;
+        justify-content: unset !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+    .man-holding-technology-gear-wheel-interface {
+        height: 44vh !important;
+
+        .Build-Future-Proof-S {
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+            padding-top: 9.06% !important;
+            font-size: 30px !important;
+            line-height: 37px !important;
+        }
+    }
+
+    .Our-Experts {
+        .Consult-With-Our-Exp {
+            font-size: 16px !important;
+            line-height: 44px !important;
+            padding: 9px 20px !important;
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1050px) {
+    .footer-section {
+
+        .-Member-App-Serv,
+        .-Member-margin-right,
+        .-Member-margin {
+            font-size: 12px !important;
+        }
+    }
 }

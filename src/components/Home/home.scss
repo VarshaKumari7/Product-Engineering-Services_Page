@@ -135,12 +135,9 @@
 
     // .man-holding-technology-gear-wheel-interface .Build-Future-Proof-S {
     .Build-Future-Proof-S {
-        width: 100% !important;
-        height: 130px !important;
+        // width: 100% !important;
+        // height: 130px !important;
         font-size: 23px !important;
-        top: 27% !important;
-        position: absolute;
-        left: 0 !important;
         margin-top: 60px !important;
         line-height: 33px !important;
     }
@@ -204,10 +201,13 @@
     }
 
     .footer-section {
-        overflow: scroll;
+        overflow-x: scroll;
         margin: 30px 0 30px !important;
+        justify-content: unset !important;
 
-        .-Member-App-Serv {
+        .-Member-App-Serv,
+        .-Member-margin,
+        .-Member-margin-right {
             width: 100% !important;
             padding: 0px 24px !important;
             font-size: 14px !important;
@@ -415,7 +415,7 @@
 @media only screen and (min-width : 500px) and (max-width : 650px) {
     .second-page .S-card-sec {
         display: grid !important;
-        margin: 8% 2% 2% 2% !important;
+        // margin: 8% 2% 2% 2% !important;
         grid-column-gap: 3% !important;
         grid-template-columns: repeat(2, 1fr) !important;
 
@@ -443,11 +443,11 @@
             position: absolute !important;
         }
 
-        .GDM-desktop {
-            position: relative !important;
-            width: 85% !important;
-            margin-top: 10% !important;
-        }
+        // .GDM-desktop {
+        //     // position: relative !important;
+        //     width: 85% !important;
+        //     // margin-top: 10% !important;
+        // }
 
         .GDM_img {
             display: none;
@@ -462,13 +462,13 @@
             display: none;
         }
 
-        .gdmodel {
-            position: relative;
-            left: 8%;
-            margin-top: 39px;
-            display: flex;
-            width: 92% !important;
-        }
+        // .gdmodel {
+        //     // position: relative;
+        //     // left: 8%;
+        //     // margin-top: 39px;
+        //     // display: flex;
+        //     width: 92% !important;
+        // }
 
         .spanmsg {
             margin-top: 33px;
@@ -500,11 +500,11 @@
         }
     }
 
-    .third-page {
-        margin-top: 99px !important;
+    // .third-page {
+    //     margin-top: 99px !important;
 
 
-    }
+    // }
 
     .Our-Plan-Process {
         font-size: 20px !important;
@@ -513,7 +513,7 @@
     }
 
     .S-card {
-        height: 470px !important;
+        height: 446px !important;
         overflow: scroll;
     }
 
@@ -570,9 +570,9 @@
     //     // margin: 0px 41px 0px 41px;
     // }
 
-    .card .Count-on-the-experts {
-        width: 90.33% !important;
-    }
+    // .card .Count-on-the-experts {
+    //     width: 90.33% !important;
+    // }
 
     .child-content {
         height: 20px;
@@ -582,15 +582,15 @@
         margin-top: 10px;
     }
 
-    .footer-section .-Member-App-Serv {
-        font-size: 12px !important;
-    }
+    // .footer-section .-Member-App-Serv {
+    //     font-size: 12px !important;
+    // }
 
-    .third-page-img2,
-    .third-page-img,
-    .gradient-copy {
-        display: none;
-    }
+    // .third-page-img2,
+    // .third-page-img,
+    // .gradient-copy {
+    //     display: none;
+    // }
 
     .lower-bg-375 {
         display: none;
@@ -653,40 +653,40 @@
         font-size: 10px !important;
     }
 
-    .man-holding-technology-gear-wheel-interface img {
-        left: 0;
-        width: 100%;
-        height: 300px !important;
-    }
+    // .man-holding-technology-gear-wheel-interface img {
+    //     left: 0;
+    //     width: 100%;
+    //     height: 300px !important;
+    // }
 
-    .man-holding-technology-gear-wheel-interface .Build-Future-Proof-S {
-        width: 65%;
-        height: 80px !important;
-        margin: 0 0 79px;
-        // font-family: Montserrat;
-        font-size: 30px !important;
-        line-height: 37px !important;
-        margin-top: -235px !important;
-        position: absolute;
-    }
+    // .man-holding-technology-gear-wheel-interface .Build-Future-Proof-S {
+    //     width: 65%;
+    //     height: 80px !important;
+    //     margin: 0 0 79px;
+    //     // font-family: Montserrat;
+    //     font-size: 30px !important;
+    //     line-height: 37px !important;
+    //     margin-top: -235px !important;
+    //     position: absolute;
+    // }
 
-    .Our-Experts {
-        margin-top: 4px !important;
-    }
+    // .Our-Experts {
+    //     margin-top: 4px !important;
+    // }
 
-    .man-holding-technology-gear-wheel-interface .Consult-With-Our-Exp {
-        font-size: 16px !important;
-        border-radius: 30px !important;
-        padding: 6px 44px !important;
-    }
+    // .man-holding-technology-gear-wheel-interface .Consult-With-Our-Exp {
+    //     font-size: 16px !important;
+    //     border-radius: 30px !important;
+    //     padding: 6px 44px !important;
+    // }
 
 
-    .Our-Product .Our-Product-Engineer {
-        height: 30px !important;
-        margin: 22px 30px !important;
-        font-size: 20px !important;
-        line-height: 30px !important;
-    }
+    // .Our-Product .Our-Product-Engineer {
+    //     height: 30px !important;
+    //     margin: 22px 30px !important;
+    //     font-size: 20px !important;
+    //     line-height: 30px !important;
+    // }
 
 
 
@@ -722,9 +722,9 @@
 
     }
 
-    .card-img {
-        display: contents !important;
-    }
+    // .card-img {
+    //     display: contents !important;
+    // }
 
     .card-sec {
         column-gap: 0% !important;
@@ -732,11 +732,11 @@
         margin: 0px !important;
     }
 
-    .card img {
-        width: 60% !important;
-        object-fit: contain;
-        margin: 0 108px 0px 60px !important;
-    }
+    // .card img {
+    //     width: 60% !important;
+    //     object-fit: contain;
+    //     margin: 0 108px 0px 60px !important;
+    // }
 
     .card .Product-Consulting {
         width: 520px;
@@ -751,6 +751,7 @@
         height: 140px !important;
         line-height: 16px !important;
     }
+
 
     .third-page .gradient-copy .-NDA-and-IP-Protect {
         margin-left: 253px !important;
@@ -796,7 +797,12 @@
         position: unset !important;
 
         .S-card {
-            height: 408px !important;
+            height: 451px !important;
+            overflow-y: scroll;
+        }
+
+        .S-card ::-webkit-scrollbar {
+            display: none;
         }
     }
 
@@ -816,21 +822,21 @@
         display: none;
     }
 
-    .GDM-desktop {
-        // // margin-top: 11%;
-        // position: absolute;
-        // width: 78%;
-        // // left: 9%;
+    // .GDM-desktop {
+    //     // // margin-top: 11%;
+    //     // position: absolute;
+    //     // width: 78%;
+    //     // // left: 9%;
 
-        position: absolute;
-        width: 78%;
-        left: 11%;
-        margin-top: 8%;
-    }
+    //     position: absolute;
+    //     width: 78%;
+    //     left: 11%;
+    //     margin-top: 8%;
+    // }
 
-    .destop {
-        display: flex;
-    }
+    // .destop {
+    //     display: flex;
+    // }
 
     .gdmodel {
         margin-top: 34px;
@@ -862,13 +868,13 @@
         }
 
         .Third-card {
-            height: 470px !important;
+            height: 350px !important;
         }
 
 
         .GET-AHEAD {
             margin-left: 55% !important;
-            margin-top: -29% !important;
+            // margin-top: -29% !important;
         }
 
         .Get-ahead-in-your-In {
@@ -905,9 +911,9 @@
 }
 
 @media only screen and (min-width: 1020px) and (max-width: 1400px) {
-    .destop {
-        display: flex;
-    }
+    // .destop {
+    //     display: flex;
+    // }
 
     .gdmodel {
         margin-top: 34px;
@@ -934,23 +940,8 @@
             margin-bottom: 7% !important;
         }
     }
-
-    .End-of-the-page {
-        margin-top: 7% !important;
-    }
 }
 
-@media only screen and (min-width: 1301px) {
-    .End-of-the-page {
-        margin-top: 13% !important;
-    }
-
-    // .Global-Delivery-Mode {
-    //     margin-top: -572px !important;
-    //     top: unset !important;
-    //     font-size: 30px !important;
-    // }
-}
 
 
 @media only screen and (min-width: 1800px) {
@@ -960,11 +951,4 @@
     }
 
 
-}
-
-@media only screen and (min-width: 2100px) {
-
-    .End-of-the-page {
-        margin-top: 20% !important;
-    }
 }

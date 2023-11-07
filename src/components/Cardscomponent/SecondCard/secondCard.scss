@@ -1,13 +1,12 @@
 .S-card {
   display: flex;
   align-items: center;
-  //   margin: 0 0% 3% 0%;
   flex-direction: column;
   width: 27%;
-  // height: 370px;
   border-radius: 10px;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
   background-color: #fff;
+  height: 470px;
 
   img {
     width: 100%;
@@ -15,18 +14,24 @@
     padding-bottom: 8px;
   }
 
-  .User-Researchers {
-    width: 520px;
-    height: 30px;
-    font-family: inherit;
-    font-size: 0.9rem;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.4;
-    letter-spacing: normal;
-    text-align: center;
-    color: #0f0a4b;
+  .user {
+    padding: 0px 10px;
+
+    .User-Researchers {
+      width: 520px;
+      height: 30px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 700;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: center;
+      color: #0f0a4b;
+    }
+
+
   }
 
   .To-ensure-the-user-r {
@@ -40,5 +45,24 @@
     text-align: justify;
     color: #505050;
     padding: 10px 21px;
+    overflow-y: scroll;
+  }
+
+  .To-ensure-the-user-r::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:500px) and (max-width:786px) {
+  .S-card {
+
+
+    .To-ensure-the-user-r {
+      overflow-y: scroll;
+    }
+
+    .To-ensure-the-user-r::-webkit-scrollbar {
+      display: none;
+    }
   }
 }

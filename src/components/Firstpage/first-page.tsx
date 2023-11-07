@@ -15,9 +15,9 @@ const FirstPage = () => {
   return (
     <>
       <div className="man-holding-technology-gear-wheel-interface">
-        <img src={require("../../img/background-img.png")}></img>
-        <div className="Build-Future-Proof-S">
-          <span>
+        {/* <img src={require("../../img/background-img.png")}></img> */}
+        <div className="front">
+          <span className="Build-Future-Proof-S">
             Build Future-Proof Software Products with
             <span className="text-style-1"> Products Engineering Services</span>
           </span>
@@ -33,9 +33,10 @@ const FirstPage = () => {
                 />
               )}
             </div>
-            {/* <SpeakToOurExperts open={open} /> */}
           </div>
+          {/* <SpeakToOurExperts open={open} /> */}
         </div>
+        {/* </div> */}
       </div>
       <div className="Our-Product">
         <div className="Our-Product-Engineer">
@@ -49,7 +50,7 @@ const FirstPage = () => {
         </div>
       </div>
       <div className="footer-section">
-        <span className="-Member-App-Serv">100+ Member App Services Team</span>
+        <span className="-Member-margin">100+ Member App Services Team</span>
         <img
           src={require("../../img/vector.png")}
           className="Group-14-Copy"
@@ -71,7 +72,9 @@ const FirstPage = () => {
           src={require("../../img/vector.png")}
           className="Group-14-Copy"
         ></img>
-        <span className="-Member-App-Serv">Offshore Development Center</span>
+        <span className="-Member-margin-right">
+          Offshore Development Center
+        </span>
       </div>
     </>
   );

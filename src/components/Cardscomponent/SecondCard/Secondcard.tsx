@@ -5,7 +5,7 @@ const SecondCard = ({ cardData }: any) => {
       <div className="S-card-img">
         <img src={cardData.img} />
       </div>
-      <div>
+      <div className="user">
         <span className="User-Researchers">{cardData.heading}</span>
       </div>
       <div className="To-ensure-the-user-r">

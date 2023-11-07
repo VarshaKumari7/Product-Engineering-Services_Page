@@ -1,31 +1,8 @@
 import SecondCard from "../Cardscomponent/SecondCard/Secondcard";
 import { secondCardData } from "../../datafile/SecondCardData";
 import "../SecondPage/secondpage.scss";
-import { useEffect, useState } from "react";
 
 const Secondpage = () => {
-  // const [isDesktop, setDesktop] = useState(window.innerWidth >= 1024);
-  // const [screenWidth, setScreenWidth] = useState(window.screen.width);
-
-  // const currentScreenWidth = () => {
-  //   setScreenWidth(() => window.innerWidth);
-  //   console.log("Screen Size ", screenWidth);
-  // };
-
-  // const updateMedia = () => {
-  //   setDesktop(window.innerWidth >= 1024);
-  //   console.log("uetuiufqhhj", isDesktop);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", currentScreenWidth);
-  //   return () => window.removeEventListener("resize", currentScreenWidth);
-  // }, [screenWidth]);
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", updateMedia);
-  //   return () => window.removeEventListener("resize", updateMedia);
-  // }, [screenWidth]);
   return (
     <div className="second-page">
       <div className="Supporting-Roles">Supporting Roles</div>
@@ -36,27 +13,26 @@ const Secondpage = () => {
       </div>
       <div className="G-D-Model">
         <div className="destop">
-          {/* {isDesktop ? (
-            <> */}
-          <img
+          {/* <img
             src={require("../../img/GDM-bg-1440.png")}
             className="B-img-786"
-          />
-          <div className="gdmodel">
-            <div className="spanmsg">
-              <span className="Global-Delivery-Mode">
-                Global Delivery Model
-              </span>
+          /> */}
+          <div className="gd-model-cover-page">
+            <div className="gdmodel">
+              <div className="spanmsg">
+                <span className="Global-Delivery-Mode">
+                  Global Delivery Model
+                </span>
+              </div>
+              <div className="GMD">
+                <img
+                  src={require("../../img/GDM-desktop.png")}
+                  className="GDM-desktop"
+                />
+              </div>
             </div>
-            <img
-              src={require("../../img/GDM-desktop.png")}
-              className="GDM-desktop"
-            />
           </div>
 
-          {/* </>
-          ) : (
-            <> */}
           <img
             src={require("../../img/GDM-bg-375.png")}
             className="B-img-375"
@@ -139,8 +115,6 @@ const Secondpage = () => {
               </div>
             </div>
           </div>
-          {/* </>
-          )} */}
         </div>
       </div>
     </div>
