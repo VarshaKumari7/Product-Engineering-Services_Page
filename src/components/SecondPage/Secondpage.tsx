@@ -32,32 +32,32 @@ const Secondpage = () => {
               </div>
             </div>
           </div>
-
-          <img
-            src={require("../../img/GDM-bg-375.png")}
-            className="B-img-375"
-          />
-
-          <div className="content-375">
-            <div className="Rectangle-375">
-              <span className="Onsite">Onsite</span>
+          {/* Mobile Phonessssssssssssssssssssssssssssssss */}
+          <div className="mobile">
+            <div className="msg">
+              <span className="Global-Delivery-Mode-mobile">
+                Global Delivery Model
+              </span>
             </div>
+            <div className="content-375">
+              <div className="Rectangle-375">
+                <span className="Onsite">Onsite</span>
+              </div>
 
-            <span className="Customer-facing-SME">
-              Customer facing, SME's, Project Management, Consultants,
-              Architects, Business Analysts and Technical Support Resources
-            </span>
-            <div className="Rectangle-375">
-              <span className="Onsite">Offshore</span>
-            </div>
+              <span className="Customer-facing-SME">
+                Customer facing, SME's, Project Management, Consultants,
+                Architects, Business Analysts and Technical Support Resources
+              </span>
+              <div className="Rectangle-375">
+                <span className="Onsite">Offshore</span>
+              </div>
 
-            <span className="Customer-facing-SME">
-              Offshore delivery and support for better cost savings and
-              scalability. Regulated offshore development with client driven
-              process. Staged transition for large scale projects.
-            </span>
+              <span className="Customer-facing-SME">
+                Offshore delivery and support for better cost savings and
+                scalability. Regulated offshore development with client driven
+                process. Staged transition for large scale projects.
+              </span>
 
-            <div>
               <img
                 src={require("../../img/375-img1.png")}
                 className="GDM_img"

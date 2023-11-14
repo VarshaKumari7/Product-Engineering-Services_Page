@@ -1,25 +1,10 @@
 /* Mobile styles */
 @media only screen and (max-width: 500px) {
-    .-header .header-contact .Rectangle .try-free {
-        height: 30px !important;
-        width: 54px !important;
-        font-size: 10px !important;
-        border-radius: 38px !important;
-        padding: 9px 26px !important;
-        margin: 15px 10px !important;
-    }
-
     .-header img.Bitmap-Copy-5 {
         width: 86px;
         height: 30px;
         object-fit: contain;
         margin: 20px 0 15px 20px;
-    }
-
-    .logo img {
-        height: 30px !important;
-        width: 86px !important;
-        margin: 20px !important;
     }
 
     .-header .header-contact .cont {
@@ -43,13 +28,6 @@
         margin: 20px 0 15px 20px !important;
     }
 
-    // .header-contact .Rectangle .try-free {
-    //     font-size: 10px !important;
-    //     border-radius: 38px !important;
-    //     padding: 6px 17px !important;
-    //     margin: 15px 10px !important;
-    // }
-
     .Rectangle {
         display: flex;
         flex: 0;
@@ -59,7 +37,6 @@
         left: 0;
         width: 100%;
         height: 420px !important;
-        // position: absolute;
         top: 13%;
     }
 
@@ -97,23 +74,23 @@
     }
 
     .GET-AHEAD {
-
-        left: 0% !important;
-        margin-top: -376px !important;
-        position: relative !important;
-        top: 0px !important;
         width: 100% !important;
 
         .Get-ahead-in-your-In {
-            font-size: 29px !important;
-            font-family: Montserrat !important;
+            margin-right: 9.86%;
             font-size: 29px !important;
             font-weight: 600 !important;
+            margin-top: 118.55% !important;
+            /* font-weight: 600 !important; */
+            margin-left: 7.86% !important;
         }
 
         .Rectangle-2-Copy-10 {
             width: 75% !important;
-            margin-top: 32px;
+            margin-top: 37px !important;
+            margin-bottom: 25.6% !important;
+            margin-left: 9.86% !important;
+            margin-right: 9.86% !important;
         }
     }
 
@@ -133,7 +110,6 @@
 
     }
 
-    // .man-holding-technology-gear-wheel-interface .Build-Future-Proof-S {
     .Build-Future-Proof-S {
         // width: 100% !important;
         // height: 130px !important;
@@ -184,20 +160,12 @@
     }
 
     .heading-div {
-        height: 20px !important;
-        width: 290px !important;
+
 
         .heading {
             font-size: 16px !important;
             line-height: 26px !important;
         }
-    }
-
-    .child-content {
-        height: 20px;
-        line-height: 21px;
-        font-size: 12px;
-        width: 260px;
     }
 
     .footer-section {
@@ -236,69 +204,10 @@
 
 
     .content-375 {
-        position: absolute;
+        // position: absolute;
         top: 56%;
         color: white;
 
-    }
-
-    .Global-Delivery-Mode {
-        font-size: 22px !important;
-        position: absolute;
-        left: 18% !important;
-        top: 56% !important;
-        line-height: 30px !important;
-    }
-
-    .Rectangle-375 {
-        width: 96% !important;
-        margin: 26px 1px 20px 1px !important;
-        padding: -1px !important;
-
-    }
-
-    .content-375 {
-        position: absolute;
-        top: 57%;
-        color: white;
-        text-align: justify;
-        word-spacing: 1px;
-        font-size: 12px;
-        padding: 0px 30px;
-    }
-
-    .GDM_img {
-        position: absolute;
-        left: 13% !important;
-        top: 107% !important;
-        width: 76% !important;
-        height: 247px;
-    }
-
-    .small-text-container {
-        width: 86%;
-        left: 7%;
-        position: absolute;
-        top: 209% !important;
-    }
-
-    .text-inbox img {
-        margin-bottom: 5px;
-        position: relative;
-        width: 100%;
-        left: -3%;
-    }
-
-    .Reducing-the-Service {
-        position: absolute !important;
-        left: 30px !important;
-        // top: 2% !important;
-        margin-top: 8px;
-    }
-
-    .text-inbox img {
-        position: relative;
-        width: 90%;
     }
 
     .new-content img {
@@ -307,12 +216,9 @@
     }
 
     .gdmodel {
-        position: relative !important;
         display: flex !important;
         flex-direction: column !important;
         align-items: flex-start !important;
-        left: 0% !important;
-        top: 42px;
 
         .Global-Delivery-Mode {
             margin: 0px !important;
@@ -321,8 +227,8 @@
 
     .third-page .Thirdpage-footer-section {
         overflow-x: scroll;
-        height: auto;
-        padding: 9px 0px;
+
+        justify-content: unset !important;
 
         .-Certified-BI-Exp {
             padding: 0px 36px !important;
@@ -367,10 +273,9 @@
             }
 
             .child-content {
-                height: 20px;
+
                 line-height: 21px;
                 font-size: 12px;
-                width: 260px;
                 margin-top: 10px;
             }
 
@@ -390,23 +295,14 @@
     }
 
     .third-page .End-of-the-page {
-        margin-top: 150px !important;
-
+        // margin-top: 150px !important;
+        padding: 15px 12px 15px 13px !important;
 
 
         .Copyright-2010-202 {
-            width: 100% !important;
-            height: 30px;
-            // font-family: Montserrat;
-            font-size: 10px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1;
-            letter-spacing: normal;
-            text-align: center;
-            color: #fff;
-            display: block;
+
+            font-size: 10px !important;
+
         }
 
     }
@@ -442,12 +338,6 @@
             left: 0;
             position: absolute !important;
         }
-
-        // .GDM-desktop {
-        //     // position: relative !important;
-        //     width: 85% !important;
-        //     // margin-top: 10% !important;
-        // }
 
         .GDM_img {
             display: none;
@@ -522,9 +412,6 @@
     }
 
     .Third-card {
-        // height: 350px !important;
-        // width: 350px !important;
-        // margin: 30px 23px 15px 13px !important;
         width: 93.33% !important;
         height: 100% !important;
         margin: 7px 12px 7px 13px !important;
@@ -853,13 +740,14 @@
     .third-page {
 
         .third-card-sec {
-            margin: 0 82px !important;
+            margin: 0 5.6% 60px !important;
         }
 
         .third-page-img {
             // margin: 0 180px;
             margin: 0 12%;
             width: 75% !important;
+            margin-bottom: 10.3px;
         }
 
         .last-section img {
@@ -872,10 +760,10 @@
         }
 
 
-        .GET-AHEAD {
-            margin-left: 55% !important;
-            // margin-top: -29% !important;
-        }
+        // .GET-AHEAD {
+        //     margin-left: 55% !important;
+        //     // margin-top: -29% !important;
+        // }
 
         .Get-ahead-in-your-In {
             width: 500px !important;
@@ -891,7 +779,7 @@
 
         .heading-div {
             height: 20px !important;
-            margin: 10px 0 0px 30px !important;
+            margin: 27px 0 32px 30px !important;
 
             .child-content {
                 height: 20px !important;

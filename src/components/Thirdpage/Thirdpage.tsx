@@ -127,29 +127,33 @@ const Thirdpage = () => {
             src={require("../../img/lower-786.png")}
             className="lower-bg-1440"
           />
-          <img
+          {/* <img
             src={require("../../img/lower-bg-375.png")}
             className="lower-bg-375"
-          />
+          /> */}
           <div className="get-background">
-            <div className="GET-AHEAD">
-              <span className="Get-ahead-in-your-In">
-                <span className="text-style-1">Get ahead in your Industry</span>
-                <span className="text-style-2">
-                  & Take Your Enterprise to a more
+            <div className="mobile-last-section">
+              <div className="GET-AHEAD">
+                <span className="Get-ahead-in-your-In">
+                  <span className="text-style-1">
+                    Get ahead in your Industry
+                  </span>
+                  <span className="text-style-2">
+                    & Take Your Enterprise to a more
+                  </span>
+                  Advanced Tech-Driven Future with Us.
                 </span>
-                Advanced Tech-Driven Future with Us.
-              </span>
-              <div className="Rectangle-2-Copy-10">
-                <span className="Get-In-Touch" onClick={getInTouch}>
-                  Get In Touch
-                </span>
-                {open && (
-                  <StayConncetedWithUs
-                    open={open}
-                    handleClose={() => setOpen(false)}
-                  />
-                )}
+                <div className="Rectangle-2-Copy-10">
+                  <span className="Get-In-Touch" onClick={getInTouch}>
+                    Get In Touch
+                  </span>
+                  {open && (
+                    <StayConncetedWithUs
+                      open={open}
+                      handleClose={() => setOpen(false)}
+                    />
+                  )}
+                </div>
               </div>
             </div>
           </div>
