@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import "../Popup/popup.scss";
 // import Dialog from "@mui/material/Dialog";
 // import { DialogTitle, MenuItem, TextField } from "@mui/material";
@@ -198,7 +199,15 @@ const TryItFree = ({ open, handleClose }: any) => {
       comment: "",
     });
   };
-  return (
+
+  const portalContainer = document.querySelector(".portalModalDiv");
+
+  if (!portalContainer) {
+    console.error("Portal container not found in the DOM");
+    return null;
+  }
+
+  return ReactDOM.createPortal(
     <div className="Rectangle-try">
       <div className="modal fade" id="formModal" role="dialog">
         <div className="modal-dialog">
@@ -333,7 +342,8 @@ const TryItFree = ({ open, handleClose }: any) => {
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    portalContainer
   );
 };
 export default TryItFree;
