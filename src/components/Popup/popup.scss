@@ -1,33 +1,21 @@
-.css-hz1bth-MuiDialog-container {
-    height: unset !important;
-}
-
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper,
-.css-uhb5lp {
-    max-height: unset !important;
-    max-width: 350px !important;
-    margin-left: 3.46% !important;
-    margin-right: 3.46% !important;
-    border-radius: 16px !important;
-    margin-top: 13.33% !important;
-    margin-bottom: 0 !important;
-}
-
 .stayconnected {
     max-height: 430px !important;
 }
 
 .Rectangle-1 {
-    // width: 430px;
-    // height: 700px;
-    // width: 93.33%;
-    // height: 580px;
-    // margin: 50px 13px 250px 12px;
     border-radius: 16px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
-    // height: 700px;
+    // margin: -293px 0px 0px -9%;
+    margin: -46% 0px 0px 0%;
     padding: 27px 24px 22px 26px;
+    position: relative;
+    // width: 78%;
+
+    @media only screen and (max-width : 500px) {
+        margin: -93% 2px 0px 4%;
+    }
+
 
     .headings {
         display: flex;
@@ -38,8 +26,6 @@
         .Try-Free-Pilot-For-1 {
             width: 300px;
             height: 40px;
-            // margin: 0 0 23px;
-            // padding: 10px 0 10px 280px;
             font-size: 20px;
             font-weight: 600;
             font-stretch: normal;
@@ -56,10 +42,7 @@
     }
 
     .Speak-To-Our-Experts {
-        width: 317px;
-        height: 40px;
         margin: 0 22px 0 0;
-        font-family: Montserrat;
         font-size: 18px;
         font-weight: 600;
         font-stretch: normal;
@@ -69,59 +52,35 @@
         color: #051260;
     }
 
-    .Please-fill-the-form {
-        width: 317px;
-        height: 20px;
-        margin: 13px 22px 22px 0;
-        font-family: MontserratRoman;
-        font-size: 12px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 2.33;
-        letter-spacing: normal;
-        color: #000;
+    .close {
+        border: none;
+        margin-top: -5px !important;
+        font-size: 37px;
+        color: #111111;
+        opacity: 0.8;
     }
 
+    // .Please-fill-the-form {
+    //     width: 317px;
+    //     height: 20px;
+    //     margin: 13px 22px 22px 0;
+    //     font-family: MontserratRoman;
+    //     font-size: 12px;
+    //     font-weight: 500;
+    //     font-stretch: normal;
+    //     font-style: normal;
+    //     line-height: 2.33;
+    //     letter-spacing: normal;
+    //     color: #000;
+    // }
+
     .body-content {
-        margin-top: 23px;
+        width: 100%;
 
-
-        // .Line-Copy-36 {
-        //     // width: 350px;
-        //     // height: 1px;
-        //     // border: solid 1px #8d8d8d;
-        //     margin-bottom: 15px;
-
-        .MuiFormControl-root {
-            width: 100% !important;
-            height: 36px !important;
-        }
-
-        img {
-            width: 98%;
-            padding: 2px;
-            font-size: 12px;
-        }
-
-        input {
-            width: 98%;
-            font-size: 12px !important;
-            // padding: 0 !important;
-        }
-
-        // }
-        .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
-            font-family: Montserrat !important;
-            font-weight: normal !important;
-            font-size: 12px !important;
-            line-height: 3.25 !important;
-            letter-spacing: normal !important;
-            color: #666 !important;
-        }
-
-        .css-v4u5dn-MuiInputBase-root-MuiInput-root {
-            margin-top: 0px
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
         .Work-Email-Address,
@@ -129,29 +88,22 @@
         .Your-Timeline,
         .Full-Name,
         .Phone-Number,
+        .Comment,
         .How-can-we-contact-y,
         .Select-Services,
         .Your-Timeline {
-            // width: 350px;
-            // height: 46px;
-            margin: 14px 0px 0px 0;
-            // padding: 44px 0 0;
-            font-family: Montserrat;
+            padding: 0px 10px;
+            margin: 0 0 8px;
+            border: none;
+            height: 50px;
+            border-bottom: solid 1px #8d8d8d;
+            color: #666666;
             font-size: 12px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            // line-height: 3.25;
-            letter-spacing: normal;
-            color: #666;
+            background-color: #f0f0f0;
         }
 
         .Services {
             margin-top: 14px;
-
-            .css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
-                font-size: 12px !important;
-            }
 
             .Select-Services {
                 height: 0 !important;
@@ -166,119 +118,83 @@
         }
     }
 
-    .Rectangle-2-Copy-11 {
-        margin: 34px 0px 30px 0px;
+    // .Rectangle-2-Copy-11 {
+    //     margin: 34px 0px 30px 0px;
+    //     display: flex;
+    //     align-items: center;
+
+    //     input {
+    //         margin-right: 15px;
+    //         width: 16px;
+    //         height: 16px;
+    //     }
+
+    //     .By-submitting-this-i .text-style-1,
+    //     .text-style-2 {
+    //         color: #0f0a4b;
+    //         text-decoration-line: underline;
+    //     }
+
+    //     .By-submitting-this-i {
+    //         width: 319px;
+    //         height: 30px;
+    //         // margin: 24px 9px 20px 15px;
+    //         font-size: 10px;
+    //         font-weight: normal;
+    //         font-stretch: normal;
+    //         font-style: normal;
+    //         line-height: 15px;
+    //         letter-spacing: normal;
+    //         color: #4a4a4a;
+    //     }
+
+
+    // }
+
+    .terms-privacy {
         display: flex;
-        align-items: center;
 
-        input {
-            margin-right: 15px;
-            width: 16px;
-            height: 16px;
-        }
-
-        .By-submitting-this-i .text-style-1,
-        .text-style-2 {
-            color: #0f0a4b;
-            text-decoration-line: underline;
-        }
-
-        .By-submitting-this-i {
-            width: 319px;
-            height: 30px;
-            // margin: 24px 9px 20px 15px;
-            font-family: Montserrat;
+        p {
+            margin: 0 10px;
             font-size: 10px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 15px;
-            letter-spacing: normal;
-            color: #4a4a4a;
         }
     }
 
-
-
     .Rectangle-2-Copy-10 {
-        // width: 350px;
-        // height: 50px;
-        // margin: 20px 9px 20px 0;
-        // padding: 15px 77px 16px;
-        // border-radius: 25px;
-        // background-color: #f8e71c;
-        // width: 63.33%;
         height: 20px;
         margin: 20px 9px 20px 0;
         padding: 15px 52px 16px;
         border-radius: 25px;
         background-color: #f8e71c;
+        cursor: pointer;
 
         .Submit {
-            // // width: 196px;
-            // height: 19px;
-            // font-family: Montserrat;
-            // font-size: 18px;
-            // font-weight: bold;
-            // font-stretch: normal;
-            // font-style: normal;
-            // line-height: 2.44;
-            // letter-spacing: normal;
-            // text-align: center;
-            // color: #0b0e55;
-            // margin: -12px;
-
-            height: 19px;
-            font-family: Montserrat;
             font-size: 18px;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
-            /* line-height: 2.44; */
             letter-spacing: normal;
             text-align: center;
             color: #0b0e55;
+            background-color: #f8e71c;
+            border: none;
             cursor: pointer;
-            display: block;
-            // width: 196px;
+            width: 100%;
         }
     }
 
-
-
     .last-content-popup {
         display: flex;
-        align-items: center;
 
         img {
+            height: 13px !important;
             width: 10px;
-            height: 13px;
         }
 
         .The-information-shar {
-            // width: 320px;
-            // height: 15px;
-            // margin: 20px 19px 0 4px;
-            // font-family: Montserrat;
-            // font-size: 10px;
-            // font-weight: normal;
-            // font-stretch: normal;
-            // font-style: italic;
-            // line-height: 1.5;
-            // letter-spacing: normal;
-            // color: #4a4a4a;
-            display: block;
-            width: 294px;
-            height: 15px;
-            margin: 0px 14px 0 6px;
-            font-family: Montserrat;
+            margin: 0 10px;
             font-size: 10px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: italic;
-            line-height: 15px;
-            letter-spacing: normal;
-            color: #4a4a4a;
+
         }
     }
 
@@ -355,15 +271,230 @@
 }
 
 @media only screen and (max-width: 325px) {
-    .Rectangle-1 .body-content {
-        margin-top: 48px !important;
+    .Rectangle-1 .Rectangle-2-Copy-10 .Submit {
+        width: 139px !important;
+    }
+}
+
+
+
+
+
+
+
+
+// Stay connected with us
+.form-modal {
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+    background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
+    margin: -425px -10% 0px -11%;
+    padding: 27px 24px 22px 26px;
+    position: relative;
+    height: 380px;
+
+    .modal-header {
+        display: flex;
+        padding: 0;
+        border-bottom: 0;
+        justify-content: space-around;
+    }
+
+    .modal-title {
+        // font-size: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.67;
+        color: #051260;
+        margin: 0;
+        //  padding: 0 0 25px;
+    }
+
+    .close {
+        border: none;
+        margin-top: -5px !important;
+        font-size: 34px;
+        color: #111111;
+        opacity: 0.8;
+    }
+
+    #connectionForm input {
+        width: 92%;
+        padding: 0px 10px;
+        margin: 0 0 8px;
+        border: none;
+        height: 50px;
+        border-bottom: solid 1px #8d8d8d;
+        color: #666666;
+        font-size: 12px;
+        background-color: #f0f0f0;
+    }
+
+    .privacy {
+        display: flex;
+        align-items: center;
+
+        input {
+            width: 16px !important;
+        }
+
+        p {
+            margin: 0 10px;
+            font-size: 10px;
+        }
+    }
+
+    .Rectangle-2-Copy-11 {
+        height: 20px;
+        margin: 20px 9px 20px 0;
+        padding: 15px 52px 16px;
+        border-radius: 25px;
+        background-color: #f8e71c;
+        cursor: pointer;
+
+        .Submit {
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #0b0e55;
+            background-color: #f8e71c;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    }
+}
+
+
+// TRY IT FREE
+.Rectangle-try {
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+    background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
+    // margin: -293px 0px 0px -9%;
+    margin: 11% 4px 0px -38%;
+    padding: 27px 24px 22px 26px;
+    position: absolute;
+    // width: 78%;
+
+    @media only screen and (max-width: 500px) {
+        margin: 15% 4px 0px -28%;
+    }
+
+    .headings {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Speak-To-Our-Experts {
+        margin: 0 22px 0 0;
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.22;
+        letter-spacing: normal;
+        color: #051260;
+    }
+
+    .close {
+        border: none;
+        margin-top: -5px !important;
+        font-size: 37px;
+        color: #111111;
+        opacity: 0.8;
     }
 
     .body-content {
-        margin-top: 23px !important;
+        width: 100%;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .Work-Email-Address,
+        .Company-Name,
+        .Your-Timeline,
+        .Full-Name,
+        .Phone-Number,
+        .Comment,
+        .How-can-we-contact-y,
+        .Select-Services,
+        .Your-Timeline {
+            padding: 0px 10px;
+            margin: 0 0 8px;
+            border: none;
+            height: 50px;
+            border-bottom: solid 1px #8d8d8d;
+            color: #666666;
+            font-size: 12px;
+            background-color: #f0f0f0;
+        }
+
+        .Services {
+            margin-top: 14px;
+
+            .Select-Services {
+                height: 0 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            img {
+                width: 11px;
+                height: 7px;
+            }
+        }
     }
 
-    .Rectangle-1 .Rectangle-2-Copy-10 .Submit {
-        width: 139px !important;
+    .terms-privacy {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin: 0 10px;
+            font-size: 10px;
+            color: black !important
+        }
+    }
+
+    .last-content-popup {
+        display: flex;
+        align-items: center;
+
+        .The-information-shar {
+            margin: 0 10px;
+            font-size: 10px;
+            color: black !important;
+        }
+    }
+
+    .Rectangle-2-Copy-10 {
+        // height: 20px;
+        margin: 20px 9px 20px 0;
+        padding: 15px 52px 16px;
+        border-radius: 25px;
+        background-color: #f8e71c;
+        cursor: pointer;
+
+        .Submit {
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #0b0e55;
+            background-color: #f8e71c;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
     }
 }

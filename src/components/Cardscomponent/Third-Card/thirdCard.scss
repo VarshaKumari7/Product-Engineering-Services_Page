@@ -4,8 +4,9 @@
   border-radius: 10px;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
   background-color: #fff;
-  height: 95%;
+  height: auto;
   width: 93.33%;
+  padding-bottom: 30px;
 
   img {
     width: 100%;
@@ -36,17 +37,23 @@
     font-style: normal;
     line-height: 21px;
     letter-spacing: normal;
-    text-align: justify;
+    // text-align: justify;
+    word-spacing: 4px;
     color: #505050;
     padding: 0 30px;
 
     .child-content {
-      height: 20px;
       line-height: 21px;
       font-size: 14px;
       display: flex;
-      align-items: center;
+      // align-items: center;
       margin-top: 13px;
+
+      @media only screen and (min-width: 500px) and (max-width: 1020px) {
+        font-size: 12px;
+        width: 260px;
+        margin-top: 10px;
+      }
     }
 
     img {

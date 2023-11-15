@@ -24,10 +24,8 @@ const Header = () => {
             <p className="try-free" onClick={talkToAnExpert}>
               TRY IT FREE
             </p>
-            {open && (
-              <TryItFree open={open} handleClose={() => setOpen(false)} />
-            )}
           </div>
+          {open && <TryItFree open={open} handleClose={() => setOpen(false)} />}
         </div>
       </div>
       <div>

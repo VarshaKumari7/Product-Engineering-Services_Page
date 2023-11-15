@@ -32,10 +32,144 @@ const Thirdpage = () => {
             className="third-page-img2"
           ></img>
         </div>
-        <img
+        {/* <img
           src={require("../../img/get-started-1440.png")}
           className="third-page-img-state"
-        ></img>
+        ></img> */}
+
+        {/* Destop............ */}
+
+        <div className="get-started-containers">
+          <div className="get-started-global-container">
+            <div className="get-started-container">
+              {/* <img
+                className="get-started-image"
+                src={require("../../img/PlanProcess1.webp")}
+              /> */}
+              {/* <img
+                className="get-started-image-mobile"
+                src="./assests/PlanProcessMobile1.webp"
+              /> */}
+              <span className="get-started-text Contracts">Contracts</span>
+              <ul className="get-started-list-text">
+                <li className="get-started-one-text">NDA and IP Protection</li>
+                <li className="get-started-one-text">
+                  Master Services Agreement
+                </li>
+                <li className="get-started-one-text">Statement of Work</li>
+              </ul>
+            </div>
+
+            <div className="get-started-container ">
+              {/* <img
+                className="get-started-image"
+                src={require("../../img/PlanProcess2.webp")}
+              /> */}
+              {/* <img
+                className="get-started-image-mobile"
+                src="./assests/PlanProcessMobile2.webp"
+              /> */}
+              <span className="get-started-text Team-Setup">Team Setup</span>
+              <ul className="get-started-list-text">
+                <li className="get-started-one-text">
+                  Work Closely with Customers
+                </li>
+                <li className="get-started-one-text">
+                  IP Protection Agreements with Every Resource
+                </li>
+                <li className="get-started-one-text">Induction</li>
+              </ul>
+            </div>
+
+            <div className="get-started-container">
+              {/* <img
+                className="get-started-image"
+                src={require("../../img/PlanProcess1.webp")}
+              /> */}
+              {/* <img
+                className="get-started-image-mobile"
+                src="./assests/PlanProcessMobile3.webp"
+              /> */}
+              <span className="get-started-text Knowledge-Transfer">
+                Knowledge Transfer
+              </span>
+              <ul className="get-started-list-text">
+                <li className="get-started-one-text">(on site/Offshore)</li>
+                <li className="get-started-one-text">
+                  Understand the Technology,
+                  <br />
+                  <span>
+                    Requirements,processes and build good working relationship
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="get-started-container">
+              {/* <img
+                className="get-started-image"
+                src={require("../../img/PlanProcess2.webp")}
+              /> */}
+              {/* <img
+                className="get-started-image-mobile"
+                src="./assests/PlanProcessMobile4.webp"
+              /> */}
+              <span className="get-started-text Infrastructure-Setup">
+                Infrastructure Setup
+              </span>
+              <ul className="get-started-list-text">
+                <li className="get-started-one-text">Network and Servers</li>
+                <li className="get-started-one-text">
+                  Security and IP Protection
+                </li>
+                <li className="get-started-one-text">Source Control</li>
+                <li className="get-started-one-text">Collaboration Tools</li>
+                <li className="get-started-one-text">Development Tools</li>
+                <li className="get-started-one-text">Environment Set Up </li>
+              </ul>
+            </div>
+            <div className="get-started-container">
+              {/* <img
+                className="get-started-image"
+                src={require("../../img/PlanProcess1.webp")}
+              /> */}
+              {/* <img
+                className="get-started-image-mobile"
+                src="./assests/PlanProcessMobile5.webp"
+              /> */}
+              <span className="get-started-text Process-Setup">
+                Process Setup
+              </span>
+              <ul className="get-started-list-text">
+                <li className="get-started-one-text">Communication</li>
+                <li className="get-started-one-text">Requirement </li>
+                <li className="get-started-one-text">
+                  Dev Tools & Frameworks set up
+                </li>
+                <li className="get-started-one-text">Technical Documents</li>
+                <li className="get-started-one-text">
+                  Coding Standards & Process
+                </li>
+                <li className="get-started-one-text">
+                  Code Review & Intermediate Release Plan
+                </li>
+                <li className="get-started-one-text">Resource Management</li>
+              </ul>
+            </div>
+            <div className="get-started-sub-container">
+              <img
+                src={require("../../img/PlanProcessBottom.webp")}
+                className="get-started-sub-image"
+              />
+            </div>
+            {/* <div className="get-started-sub-container-mobile">
+              <img
+                src="./assests/PlanProcessMobileBottom.webp"
+                className="get-started-sub-image-mobile"
+              />
+            </div> */}
+          </div>
+        </div>
         <div className="gradient-copy">
           <div className="new-content">
             <img src={require("../../img/375-img5.png")} />
@@ -123,10 +257,10 @@ const Thirdpage = () => {
             src={require("../../img/lower-bg-1440.png")}
             className="lower-bg-1440-plain"
           /> */}
-          <img
+          {/* <img
             src={require("../../img/lower-786.png")}
             className="lower-bg-1440"
-          />
+          /> */}
           {/* <img
             src={require("../../img/lower-bg-375.png")}
             className="lower-bg-375"

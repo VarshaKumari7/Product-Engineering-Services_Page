@@ -35,17 +35,17 @@
   }
 
   .To-ensure-the-user-r {
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    text-align: justify;
+    // text-align: justify;
     color: #505050;
     padding: 10px 21px;
     overflow-y: scroll;
+    word-spacing: 6px;
   }
 
   .To-ensure-the-user-r::-webkit-scrollbar {

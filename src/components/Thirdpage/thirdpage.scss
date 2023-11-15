@@ -20,6 +20,66 @@
         width: 100%;
     }
 
+    .get-started-containers {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #e7ecf4);
+
+        .get-started-global-container {
+            display: flex;
+            padding-bottom: 27px;
+            padding-top: 21px;
+            margin-left: 12.5%;
+            margin-right: 12.5%;
+
+            @media only screen and (min-width:500px) and (max-width : 1024px) {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+
+
+            .get-started-sub-container img {
+                height: 43vh;
+                // margin-left: 62px;
+                margin-left: 10px;
+            }
+
+            .Contracts {
+                background-image: url("../../img/PlanProcess1.webp");
+            }
+
+            .Knowledge-Transfer,
+            .Process-Setup {
+                background-image: url("../../img/PlanProcess3.webp");
+            }
+
+            .Team-Setup,
+            .Infrastructure-Setup {
+                background-image: url("../../img/PlanProcess2.webp");
+            }
+
+
+
+            .get-started-text {
+                background-size: 100% 100%;
+                padding: 10px 15px;
+                color: white;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 40px;
+                background-repeat: no-repeat;
+                display: block;
+            }
+
+            .get-started-list-text {
+                list-style: none;
+                font-size: 12px;
+                line-height: 24px;
+                color: #0f0a4b;
+                margin-left: -24px;
+            }
+        }
+    }
+
     .gradient-copy {
         // width: 375px;
         // height: 1116px;
@@ -63,7 +123,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
-        gap: 26px;
+        gap: 2%;
     }
 
     .GET-AHEAD {
@@ -106,7 +166,7 @@
 
     .Rectangle-2-Copy-10 {
 
-        width: 22%;
+        // width: 22%;
         padding: 14px 1px;
         border-radius: 25px;
         background-color: #f8e71c;
@@ -215,6 +275,10 @@
         background-position: center;
         background-size: 100% 100%;
     }
+
+    .get-started-containers {
+        display: none;
+    }
 }
 
 @media only screen and (min-width:500px) and (max-width:800px) {
@@ -231,6 +295,13 @@
 
 }
 
+@media only screen and (min-width: 500px) and (max-width: 1020px) {
+    .last-section {
+        background-image: url("../../img/lower-bg-786px.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
 
 @media only screen and (min-width: 500px) and (max-width: 1050px) {
     .Thirdpage-footer-section {
@@ -244,6 +315,11 @@
 }
 
 @media only screen and (min-width: 1020px) {
+    .get-started-container {
+        width: 250px;
+
+    }
+
     .lower-bg-1440 {
         display: none;
     }

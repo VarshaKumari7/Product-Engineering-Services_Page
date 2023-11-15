@@ -77,12 +77,12 @@
         width: 100% !important;
 
         .Get-ahead-in-your-In {
-            margin-right: 9.86%;
+            margin-right: 10.86% !important;
             font-size: 29px !important;
             font-weight: 600 !important;
             margin-top: 118.55% !important;
             /* font-weight: 600 !important; */
-            margin-left: 7.86% !important;
+            margin-left: 10.86% !important;
         }
 
         .Rectangle-2-Copy-10 {
@@ -229,6 +229,10 @@
         overflow-x: scroll;
 
         justify-content: unset !important;
+
+        .Thirdpage-footer-section::-webkit-scrollbar {
+            display: none;
+        }
 
         .-Certified-BI-Exp {
             padding: 0px 36px !important;
@@ -413,11 +417,10 @@
 
     .Third-card {
         width: 93.33% !important;
-        height: 100% !important;
+        // height: 100% !important;
         margin: 7px 12px 7px 13px !important;
 
         .heading-div {
-            height: 20px !important;
             margin: 10px 0 0px 30px !important;
         }
 
@@ -429,6 +432,10 @@
         flex-direction: column;
         align-items: center;
 
+    }
+
+    .third-page-img {
+        display: none;
     }
 
     .third-page-img1 {
@@ -461,13 +468,13 @@
     //     width: 90.33% !important;
     // }
 
-    .child-content {
-        height: 20px;
-        line-height: 21px;
-        font-size: 12px;
-        width: 260px;
-        margin-top: 10px;
-    }
+    // .child-content {
+    //     height: 20px;
+    //     line-height: 21px;
+    //     font-size: 12px;
+    //     width: 260px;
+    //     margin-top: 10px;
+    // }
 
     // .footer-section .-Member-App-Serv {
     //     font-size: 12px !important;
@@ -496,14 +503,18 @@
         }
     }
 
-    .GET-AHEAD {
-        // margin-top: -408px !important;
-        margin-top: -55% !important;
-        margin-left: 45% !important;
-    }
+    // .GET-AHEAD {
+    //     // margin-top: -408px !important;
+    //     margin-top: -55% !important;
+    //     margin-left: 45% !important;
+    // }
 
     .Thirdpage-footer-section {
         overflow-x: scroll;
+    }
+
+    .Thirdpage-footer-section::-webkit-scrollbar {
+        display: none;
     }
 }
 
@@ -667,11 +678,6 @@
         margin-left: 253px;
     }
 
-    .third-page .GET-AHEAD {
-        // margin-top: -820px !important;
-        display: none !important;
-    }
-
     .End-of-the-page {
         // margin-top: 14% !important;
         margin-top: -4px !important;
@@ -740,7 +746,8 @@
     .third-page {
 
         .third-card-sec {
-            margin: 0 5.6% 60px !important;
+            // margin: 0 5.6% 60px !important;
+            margin: 0 3.6% 60px !important;
         }
 
         .third-page-img {
@@ -753,10 +760,6 @@
         .last-section img {
             width: 100% !important;
             margin-top: 60px !important;
-        }
-
-        .Third-card {
-            height: 350px !important;
         }
 
 
