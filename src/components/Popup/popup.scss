@@ -298,15 +298,17 @@
     height: 380px;
     margin: 7% 6%;
     position: fixed;
-    /* height: 100%; */
-    /* width: 100%; */
     top: 0px;
     background-color: white;
     opacity: 1.7;
     z-index: 1;
 
-    @media only screen and (max-width : 500px) {
-        margin: 7% 6% 0px;
+    @media only screen and (max-width : 300px) {
+        margin: 20% 1% 0px;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width : 500px) {
+        margin: 15% 6% 0px;
     }
 
     @media only screen and (min-width : 500px) {
@@ -321,13 +323,11 @@
     }
 
     .modal-title {
-        // font-size: 20px;
         font-size: 16px;
         font-weight: 600;
         line-height: 1.67;
         color: #051260;
         margin: 0;
-        //  padding: 0 0 25px;
     }
 
     .close {
@@ -397,8 +397,6 @@
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
     padding: 27px 24px 22px 26px;
     position: absolute;
-    /* height: 100%; */
-    /* width: 100%; */
     top: 0px;
     background-color: white;
     opacity: 1.7;

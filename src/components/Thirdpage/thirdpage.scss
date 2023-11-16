@@ -149,6 +149,14 @@
         margin-top: 7.9%;
         margin-right: 9.47%;
 
+        @media only screen and (max-width: 500px) {
+            margin-right: 10.86%;
+            font-size: 29px;
+            font-weight: 600;
+            margin-top: 140.55%;
+            margin-left: 10.86%;
+        }
+
     }
 
     .text-style-1 {
