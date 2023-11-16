@@ -273,9 +273,10 @@ const Thirdpage = () => {
                     Get ahead in your Industry
                   </span>
                   <span className="text-style-2">
+                    {" "}
                     & Take Your Enterprise to a more
                   </span>
-                  Advanced Tech-Driven Future with Us.
+                  <span> Advanced Tech-Driven Future with Us.</span>
                 </span>
                 <div className="Rectangle-2-Copy-10">
                   <span className="Get-In-Touch" onClick={getInTouch}>

@@ -200,7 +200,7 @@ const TryItFree = ({ open, handleClose }: any) => {
     });
   };
 
-  const portalContainer = document.querySelector(".portalModalDiv");
+  const portalContainer = document.getElementById("portalModalDiv");
 
   if (!portalContainer) {
     console.error("Portal container not found in the DOM");

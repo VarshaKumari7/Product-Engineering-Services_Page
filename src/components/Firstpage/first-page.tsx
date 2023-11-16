@@ -2,7 +2,6 @@ import Card from "../Cardscomponent/first-Card/firstCard";
 import "../Firstpage/first-page.scss";
 import { cardData } from "../../datafile/cardData";
 import { useState } from "react";
-import speakToOurExperts from "../Popup/Speak-to-our-experts";
 import SpeakToOurExperts from "../Popup/Speak-to-our-experts";
 const FirstPage = () => {
   const [open, setOpen] = useState(false);

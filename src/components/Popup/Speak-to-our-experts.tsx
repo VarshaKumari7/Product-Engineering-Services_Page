@@ -1,5 +1,6 @@
 import * as React from "react";
 import "../Popup/popup.scss";
+import ReactDOM from "react-dom";
 interface Props {
   open?: boolean;
   handleClose?: any;
@@ -21,20 +22,6 @@ const SpeakToOurExperts = ({ open, handleClose }: any) => {
     contactMethod: "",
   });
 
-  const Services = [
-    {
-      value: "Google meet",
-      label: "$",
-    },
-    {
-      value: "Call",
-      label: "฿",
-    },
-    {
-      value: "Email",
-      label: "¥",
-    },
-  ];
   const handleInputChange = <T extends HTMLInputElement | HTMLSelectElement>(
     e: React.ChangeEvent<T>
   ) => {
@@ -54,7 +41,13 @@ const SpeakToOurExperts = ({ open, handleClose }: any) => {
     });
   };
 
-  return (
+  const portalContainer = document.getElementById("portalModalDiv");
+  if (!portalContainer) {
+    console.error("Portal container not found in the DOM");
+    return null;
+  }
+
+  return ReactDOM.createPortal(
     // <Dialog open={open} onClose={handleClose}>
     //   {/* <DialogTitle> */}
     //   <div className="Rectangle-1">
@@ -183,6 +176,7 @@ const SpeakToOurExperts = ({ open, handleClose }: any) => {
                     name="name"
                     placeholder="Full Name"
                     onChange={handleInputChange}
+                    value={formData.name}
                   />
                   <input
                     className="Phone-Number"
@@ -192,8 +186,10 @@ const SpeakToOurExperts = ({ open, handleClose }: any) => {
                     placeholder="Phone Number"
                     pattern="^[0-9]*$"
                     onChange={handleInputChange}
+                    value={formData.phone}
                   />
                   <input
+                    value={formData.email}
                     className="Work-Email-Address"
                     type="text"
                     name="email"
@@ -208,6 +204,7 @@ const SpeakToOurExperts = ({ open, handleClose }: any) => {
                     name="company"
                     placeholder="Company Name"
                     onChange={handleInputChange}
+                    value={formData.company}
                   />
                   <select
                     name="service"
@@ -285,7 +282,8 @@ const SpeakToOurExperts = ({ open, handleClose }: any) => {
           </div>
         </div>
       </div>
-    </>
+    </>,
+    portalContainer
   );
 };
 

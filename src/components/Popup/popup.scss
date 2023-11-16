@@ -6,14 +6,19 @@
     border-radius: 16px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
-    // margin: -293px 0px 0px -9%;
-    margin: -46% 0px 0px 0%;
-    padding: 27px 24px 22px 26px;
-    position: relative;
-    // width: 78%;
+    padding: 27px 40px 22px 40px;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    opacity: 1.7;
+    z-index: 1;
 
     @media only screen and (max-width : 500px) {
-        margin: -93% 2px 0px 4%;
+        margin: 7% 6% 0px;
+    }
+
+    @media only screen and (min-width : 500px) {
+        margin: 7% 27.06% 0px;
     }
 
 
@@ -58,21 +63,22 @@
         font-size: 37px;
         color: #111111;
         opacity: 0.8;
+        cursor: pointer;
     }
 
-    // .Please-fill-the-form {
-    //     width: 317px;
-    //     height: 20px;
-    //     margin: 13px 22px 22px 0;
-    //     font-family: MontserratRoman;
-    //     font-size: 12px;
-    //     font-weight: 500;
-    //     font-stretch: normal;
-    //     font-style: normal;
-    //     line-height: 2.33;
-    //     letter-spacing: normal;
-    //     color: #000;
-    // }
+    .Please-fill-the-form {
+        width: 317px;
+        height: 20px;
+        margin: 13px 22px 22px 0;
+        font-family: MontserratRoman;
+        font-size: 12px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.33;
+        letter-spacing: normal;
+        color: #000;
+    }
 
     .body-content {
         width: 100%;
@@ -288,10 +294,24 @@
     border-radius: 16px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
-    margin: -425px -10% 0px -11%;
-    padding: 27px 24px 22px 26px;
-    position: relative;
+    padding: 27px 45px 22px 45px;
     height: 380px;
+    margin: 7% 6%;
+    position: fixed;
+    /* height: 100%; */
+    /* width: 100%; */
+    top: 0px;
+    background-color: white;
+    opacity: 1.7;
+    z-index: 1;
+
+    @media only screen and (max-width : 500px) {
+        margin: 7% 6% 0px;
+    }
+
+    @media only screen and (min-width : 500px) {
+        margin: 7% 27.06% 0px;
+    }
 
     .modal-header {
         display: flex;
@@ -316,6 +336,7 @@
         font-size: 34px;
         color: #111111;
         opacity: 0.8;
+        cursor: pointer;
     }
 
     #connectionForm input {
@@ -346,7 +367,7 @@
 
     .Rectangle-2-Copy-11 {
         height: 20px;
-        margin: 20px 9px 20px 0;
+        margin: 20px 0px 20px 0;
         padding: 15px 52px 16px;
         border-radius: 25px;
         background-color: #f8e71c;
@@ -375,6 +396,22 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
     padding: 27px 24px 22px 26px;
+    position: absolute;
+    /* height: 100%; */
+    /* width: 100%; */
+    top: 0px;
+    background-color: white;
+    opacity: 1.7;
+    z-index: 1;
+
+    @media only screen and (max-width : 500px) {
+        margin: 7% 6% 0px;
+    }
+
+    @media only screen and (min-width : 500px) {
+        margin: 7% 27.06% 0px;
+    }
+
 
     .headings {
         display: flex;
@@ -399,6 +436,7 @@
         font-size: 37px;
         color: #111111;
         opacity: 0.8;
+        cursor: pointer;
     }
 
     .body-content {
@@ -490,3 +528,16 @@
         }
     }
 }
+
+// THANKS MODEL
+// .Thanks-model {
+//     border-radius: 16px;
+//     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+//     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
+//     padding: 27px 24px 22px 26px;
+//     position: fixed;
+//     top: 0px;
+//     background-color: white;
+//     opacity: 1.7;
+//     z-index: 1;
+// }
