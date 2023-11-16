@@ -3,23 +3,32 @@
 }
 
 .Rectangle-1 {
-    border-radius: 16px;
+    border-radius: 18px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
     padding: 27px 40px 22px 40px;
     position: absolute;
-    top: 0px;
+    left: calc(50% - 250px);
+    top: 100px;
     background-color: white;
     opacity: 1.7;
     z-index: 1;
 
-    @media only screen and (max-width : 500px) {
+    @media only screen and (max-width : 321px) {
         margin: 7% 6% 0px;
+        width: 74.33%;
+        left: unset;
+        padding: 27px 24px 22px 26px;
     }
 
-    @media only screen and (min-width : 500px) {
-        margin: 7% 27.06% 0px;
+    @media only screen and (min-width: 321px) and (max-width : 500px) {
+        margin: 15% 6% 0px;
+        padding: 27px 24px 22px 26px;
     }
+
+    // @media only screen and (min-width : 500px) {
+    //     margin: 7% 27.06% 0px;
+    // }
 
 
     .headings {
@@ -59,7 +68,7 @@
 
     .close {
         border: none;
-        margin-top: -5px !important;
+        margin-top: -5px;
         font-size: 37px;
         color: #111111;
         opacity: 0.8;
@@ -107,21 +116,6 @@
             font-size: 12px;
             background-color: #f0f0f0;
         }
-
-        .Services {
-            margin-top: 14px;
-
-            .Select-Services {
-                height: 0 !important;
-                margin: 0 !important;
-                padding: 0 !important;
-            }
-
-            img {
-                width: 11px;
-                height: 7px;
-            }
-        }
     }
 
     // .Rectangle-2-Copy-11 {
@@ -159,6 +153,8 @@
 
     .terms-privacy {
         display: flex;
+        margin-top: 24px;
+        align-items: center;
 
         p {
             margin: 0 10px;
@@ -291,39 +287,46 @@
 
 // Stay connected with us
 .form-modal {
-    border-radius: 16px;
+    border-radius: 18px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
-    padding: 27px 45px 22px 45px;
+    padding: 27px 40px 22px 40px;
     height: 380px;
-    margin: 7% 6%;
+    // margin: 7% 6%;
     position: fixed;
-    top: 0px;
+    left: calc(50% - 250px);
+    top: 100px;
     background-color: white;
     opacity: 1.7;
     z-index: 1;
 
-    @media only screen and (max-width : 300px) {
-        margin: 20% 1% 0px;
+    @media only screen and (max-width : 321px) {
+        margin: 7% 12px 0px 13px;
+        width: 74.33%;
+        left: unset;
+        padding: 27px 24px 22px 26px;
     }
 
-    @media only screen and (min-width: 300px) and (max-width : 500px) {
+    @media only screen and (min-width: 321px) and (max-width : 500px) {
         margin: 15% 6% 0px;
+        padding: 27px 24px 22px 26px;
+        left: unset;
     }
 
-    @media only screen and (min-width : 500px) {
-        margin: 7% 27.06% 0px;
+    @media only screen and (min-width : 500px) and (max-width : 1800px) {
+        margin: 8% 29%;
+        left: unset;
     }
 
     .modal-header {
         display: flex;
         padding: 0;
         border-bottom: 0;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .modal-title {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 1.67;
         color: #051260;
@@ -354,6 +357,7 @@
     .privacy {
         display: flex;
         align-items: center;
+        margin-top: 24px;
 
         input {
             width: 16px !important;
@@ -392,22 +396,27 @@
 
 // TRY IT FREE
 .Rectangle-try {
-    border-radius: 16px;
+    border-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
-    padding: 27px 24px 22px 26px;
+    padding: 27px 40px 22px 40px;
     position: absolute;
-    top: 0px;
+    left: calc(50% - 250px);
+    top: 100px;
     background-color: white;
     opacity: 1.7;
     z-index: 1;
 
-    @media only screen and (max-width : 500px) {
-        margin: 7% 6% 0px;
+    @media only screen and (max-width : 321px) {
+        margin: 7% 12px 0px 13px;
+        width: 74.33%;
+        left: unset;
+        padding: 27px 24px 22px 26px;
     }
 
-    @media only screen and (min-width : 500px) {
-        margin: 7% 27.06% 0px;
+    @media only screen and (min-width: 321px) and (max-width : 500px) {
+        margin: 15% 6% 0px;
+        padding: 27px 24px 22px 26px;
     }
 
 
@@ -419,7 +428,7 @@
 
     .Speak-To-Our-Experts {
         margin: 0 22px 0 0;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
@@ -483,6 +492,7 @@
 
     .terms-privacy {
         display: flex;
+        margin-top: 24px;
         align-items: center;
 
         p {

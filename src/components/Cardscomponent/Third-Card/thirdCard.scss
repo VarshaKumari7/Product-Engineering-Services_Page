@@ -8,6 +8,12 @@
   width: 93.33%;
   padding-bottom: 30px;
 
+  @media only screen and (max-width : 500px) {
+    width: 93.33%;
+    height: 93.33%;
+    margin: 7px 12px 19px 6px;
+  }
+
   img {
     width: 100%;
     object-fit: contain;
@@ -18,13 +24,10 @@
   }
 
   .heading {
-    // width: 520px;
-    // height: 30px;
     font-size: 20px;
     font-weight: 700;
     font-stretch: normal;
     font-style: normal;
-    // line-height: 1.4;
     letter-spacing: normal;
     text-align: center;
     color: #0f0a4b;
