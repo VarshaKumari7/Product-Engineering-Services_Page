@@ -55,9 +55,6 @@
         font-size: 22px !important;
     }
 
-    .third-page .third-card-sec {
-        display: block !important;
-    }
 
     .third-page .last-section img {
         width: 100%;
@@ -258,17 +255,11 @@
 
     .third-page .third-card-sec {
         .Third-card {
-            display: flex;
-            flex-direction: column;
-            border-radius: 10px;
-            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
-            background-color: #fff;
-            height: 350px;
-            margin-bottom: 20px;
-
-            .Third-card-img img {
-                height: 150px !important;
-            }
+            // display: flex;
+            // flex-direction: column;
+            // border-radius: 10px;
+            // box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+            // margin-bottom: 20px;
 
             .child-content {
 
