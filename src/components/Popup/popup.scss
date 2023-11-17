@@ -14,16 +14,26 @@
     opacity: 1.7;
     z-index: 1;
 
-    @media only screen and (max-width : 321px) {
-        margin: 7% 6% 0px;
+    @media only screen and (max-width : 280px) {
+        margin: 0 12px 0px 13px;
+        top: 50px;
         width: 74.33%;
         left: unset;
         padding: 27px 24px 22px 26px;
     }
 
-    @media only screen and (min-width: 321px) and (max-width : 500px) {
-        margin: 15% 6% 0px;
+    @media only screen and (max-width : 321px) {
+        left: unset;
+        margin: 0 13px 0 12px;
         padding: 27px 24px 22px 26px;
+        top: 50px;
+    }
+
+    @media only screen and (min-width: 321px) and (max-width : 500px) {
+        margin: 0px 13px 0 12px;
+        padding: 27px 24px 22px 26px;
+        top: 50px;
+        left: unset;
     }
 
     // @media only screen and (min-width : 500px) {
@@ -164,7 +174,7 @@
 
     .Rectangle-2-Copy-10 {
         height: 20px;
-        margin: 20px 9px 20px 0;
+        margin: 20px 0px 20px 0;
         padding: 15px 52px 16px;
         border-radius: 25px;
         background-color: #f8e71c;
@@ -272,17 +282,11 @@
     }
 }
 
-@media only screen and (max-width: 325px) {
-    .Rectangle-1 .Rectangle-2-Copy-10 .Submit {
-        width: 139px !important;
-    }
-}
-
-
-
-
-
-
+// @media only screen and (max-width: 325px) {
+//     .Rectangle-1 .Rectangle-2-Copy-10 .Submit {
+//         width: 139px !important;
+//     }
+// }
 
 
 // Stay connected with us
@@ -291,8 +295,6 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
     background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
     padding: 27px 40px 22px 40px;
-    // height: 380px;
-    // margin: 7% 6%;
     position: fixed;
     left: calc(50% - 250px);
     top: 100px;
@@ -301,20 +303,27 @@
     z-index: 1;
 
     @media only screen and (max-width : 321px) {
-        margin: 7% 12px 0px 13px;
+        margin: 0px 12px 0px 13px;
         width: 74.33%;
         left: unset;
         padding: 27px 24px 22px 26px;
+        top: 50px;
     }
 
     @media only screen and (min-width: 321px) and (max-width : 500px) {
-        margin: 15% 6% 0px;
+        margin: 0px 6% 0px;
         padding: 27px 24px 22px 26px;
         left: unset;
+        top: 50px;
     }
 
     @media only screen and (min-width : 500px) and (max-width : 1800px) {
-        margin: 8% 29%;
+        margin: 0px 29%;
+        left: unset;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1010px) {
+        margin: 0px 20%;
         left: unset;
     }
 
@@ -330,7 +339,7 @@
         font-weight: 600;
         line-height: 1.67;
         color: #051260;
-        margin: 0;
+        margin: 0 0 22px;
     }
 
     .close {
@@ -345,7 +354,7 @@
     #connectionForm input {
         width: 92%;
         padding: 0px 10px;
-        margin: 0 0 8px;
+        margin: 0 0 15px;
         border: none;
         height: 50px;
         border-bottom: solid 1px #8d8d8d;
@@ -357,10 +366,11 @@
     .privacy {
         display: flex;
         align-items: center;
-        margin-top: 24px;
+        margin-top: 7px;
 
         input {
             width: 16px !important;
+            margin: 0 !important;
         }
 
         p {
@@ -407,17 +417,39 @@
     opacity: 1.7;
     z-index: 1;
 
-    @media only screen and (max-width : 321px) {
-        margin: 7% 12px 0px 13px;
+    @media only screen and (max-width : 280px) {
+        margin: 0 12px 0px 13px;
+        top: 50px;
         width: 74.33%;
         left: unset;
         padding: 27px 24px 22px 26px;
     }
 
-    @media only screen and (min-width: 321px) and (max-width : 500px) {
-        margin: 15% 6% 0px;
+    @media only screen and (max-width : 321px) {
+        left: unset;
+        margin: 0 13px 0 12px;
         padding: 27px 24px 22px 26px;
+        top: 50px;
     }
+
+    @media only screen and (min-width: 321px) and (max-width : 500px) {
+        margin: 0px 13px 0 12px;
+        padding: 27px 24px 22px 26px;
+        top: 50px;
+        left: unset;
+    }
+
+    // @media only screen and (max-width : 321px) {
+    //     margin: 7% 12px 0px 13px;
+    //     width: 74.33%;
+    //     left: unset;
+    //     padding: 27px 24px 22px 26px;
+    // }
+
+    // @media only screen and (min-width: 321px) and (max-width : 500px) {
+    //     margin: 15% 6% 0px;
+    //     padding: 27px 24px 22px 26px;
+    // }
 
 
     .headings {
