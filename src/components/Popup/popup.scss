@@ -2,188 +2,192 @@
     max-height: 430px !important;
 }
 
-.Rectangle-1 {
-    border-radius: 18px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
-    background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
-    padding: 27px 40px 22px 40px;
-    position: absolute;
-    left: calc(50% - 250px);
-    top: 100px;
-    background-color: white;
-    opacity: 1.7;
-    z-index: 1;
-    height: 560px;
-    overflow-y: scroll;
+.form-modal-for-expert {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    overflow-y: auto;
 
-    &::-webkit-scrollbar {
-        background: transparent;
-        width: 0px;
-    }
-
-    @media only screen and (max-width : 280px) {
-        margin: 0 12px 0px 13px;
-        top: 50px;
-        width: 74.33%;
-        left: unset;
-        padding: 27px 24px 22px 26px;
-    }
-
-    @media only screen and (max-width : 321px) {
-        left: unset;
-        margin: 0 13px 0 12px;
-        padding: 27px 24px 22px 26px;
-        top: 50px;
-    }
-
-    @media only screen and (min-width: 321px) and (max-width : 500px) {
-        margin: 0px 13px 0 12px;
-        padding: 27px 24px 22px 26px;
-        top: 50px;
-        left: unset;
-    }
-
-    // @media only screen and (min-width : 500px) {
-    //     margin: 7% 27.06% 0px;
-    // }
+    .Rectangle-1 {
+        border-radius: 18px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+        background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
+        padding: 27px 40px 22px 40px;
+        position: absolute;
+        left: calc(50% - 250px);
+        top: 10px;
+        background-color: white;
+        opacity: 1.7;
+        z-index: 1;
 
 
-    .headings {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @media only screen and (max-width : 280px) {
+            margin: 10px 13px 10px 12px;
+            top: 10px;
+            width: 74.33%;
+            left: unset;
+            padding: 27px 24px 22px 26px;
+        }
+
+        @media only screen and (max-width : 321px) {
+            left: unset;
+            margin: 10px 13px 10px 12px;
+            padding: 27px 24px 22px 26px;
+            top: 10px;
+        }
+
+        @media only screen and (min-width: 321px) and (max-width : 500px) {
+            margin: 10px 13px 10px 12px;
+            padding: 27px 24px 22px 26px;
+            top: 10px;
+            left: unset;
+        }
+
+        // @media only screen and (min-width : 500px) {
+        //     margin: 7% 27.06% 0px;
+        // }
 
 
-        .Try-Free-Pilot-For-1 {
-            width: 300px;
-            height: 40px;
-            font-size: 20px;
+        .headings {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .Try-Free-Pilot-For-1 {
+                width: 300px;
+                height: 40px;
+                font-size: 20px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2;
+                letter-spacing: normal;
+                color: #051260;
+            }
+
+            img {
+                height: 20px;
+                width: 20px;
+            }
+        }
+
+        .Speak-To-Our-Experts {
+            margin: 0 22px 0 0;
+            font-size: 18px;
             font-weight: 600;
             font-stretch: normal;
             font-style: normal;
-            line-height: 2;
+            line-height: 1.67;
             letter-spacing: normal;
             color: #051260;
         }
 
-        img {
-            height: 20px;
-            width: 20px;
-        }
-    }
-
-    .Speak-To-Our-Experts {
-        margin: 0 22px 0 0;
-        font-size: 18px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 2.22;
-        letter-spacing: normal;
-        color: #051260;
-    }
-
-    .close {
-        border: none;
-        margin-top: -5px;
-        font-size: 37px;
-        color: #111111;
-        opacity: 0.8;
-        cursor: pointer;
-    }
-
-    .Please-fill-the-form {
-        width: 317px;
-        height: 20px;
-        margin: 13px 22px 22px 0;
-        font-family: MontserratRoman;
-        font-size: 12px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 2.33;
-        letter-spacing: normal;
-        color: #000;
-    }
-
-    .body-content {
-        width: 100%;
-
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .Work-Email-Address,
-        .Company-Name,
-        .Your-Timeline,
-        .Full-Name,
-        .Phone-Number,
-        .Comment,
-        .How-can-we-contact-y,
-        .Select-Services,
-        .Your-Timeline {
-            padding: 0px 10px;
-            margin: 0 0 8px;
+        .close {
             border: none;
-            height: 50px;
-            border-bottom: solid 1px #8d8d8d;
-            color: #666666;
+            margin-top: -5px;
+            font-size: 37px;
+            color: #111111;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .Please-fill-the-form {
+            width: 317px;
+            height: 20px;
+            margin: 13px 22px 22px 0;
+            font-family: MontserratRoman;
             font-size: 12px;
-            background-color: #f0f0f0;
-        }
-    }
-
-    .terms-privacy {
-        display: flex;
-        margin-top: 24px;
-        align-items: center;
-
-        p {
-            margin: 0 10px;
-            font-size: 10px;
-        }
-    }
-
-    .Rectangle-2-Copy-10 {
-        height: 20px;
-        margin: 20px 0px 20px 0;
-        padding: 15px 52px 16px;
-        border-radius: 25px;
-        background-color: #f8e71c;
-        cursor: pointer;
-
-        .Submit {
-            font-size: 18px;
-            font-weight: bold;
+            font-weight: 500;
             font-stretch: normal;
             font-style: normal;
+            line-height: 2.33;
             letter-spacing: normal;
-            text-align: center;
-            color: #0b0e55;
-            background-color: #f8e71c;
-            border: none;
-            cursor: pointer;
+            color: #000;
+        }
+
+        .body-content {
             width: 100%;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .Work-Email-Address,
+            .Company-Name,
+            .Your-Timeline,
+            .Full-Name,
+            .Phone-Number,
+            .Comment,
+            .How-can-we-contact-y,
+            .Select-Services,
+            .Your-Timeline {
+                padding: 0px 10px;
+                margin: 0 0 8px;
+                border: none;
+                height: 50px;
+                border-bottom: solid 1px #8d8d8d;
+                color: #666666;
+                font-size: 12px;
+                background-color: #f0f0f0;
+            }
         }
+
+        .terms-privacy {
+            display: flex;
+            margin-top: 24px;
+            align-items: center;
+
+            p {
+                margin: 0 10px;
+                font-size: 10px;
+            }
+        }
+
+        .Rectangle-2-Copy-10 {
+            height: 20px;
+            margin: 20px 0px 20px 0;
+            padding: 15px 52px 16px;
+            border-radius: 25px;
+            background-color: #f8e71c;
+            cursor: pointer;
+
+            .Submit {
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #0b0e55;
+                background-color: #f8e71c;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+        }
+
+        .last-content-popup {
+            display: flex;
+
+            img {
+                height: 13px !important;
+                width: 10px;
+            }
+
+            .The-information-shar {
+                margin: 0 10px;
+                font-size: 10px;
+
+            }
+        }
+
     }
-
-    .last-content-popup {
-        display: flex;
-
-        img {
-            height: 13px !important;
-            width: 10px;
-        }
-
-        .The-information-shar {
-            margin: 0 10px;
-            font-size: 10px;
-
-        }
-    }
-
 }
 
 .connected {
@@ -375,173 +379,192 @@
 
 
 // TRY IT FREE
-.Rectangle-try {
-    border-radius: 20px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
-    background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
-    padding: 27px 40px 22px 40px;
-    position: absolute;
-    left: calc(50% - 250px);
-    top: 100px;
-    background-color: white;
-    opacity: 1.7;
-    z-index: 1;
-    height: 560px;
-    overflow-y: scroll;
+.form-modal-for-free {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    overflow-y: auto;
 
-    &::-webkit-scrollbar {
-        background: transparent;
-        width: 0px;
-    }
+    .Rectangle-try {
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15), 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+        background-image: linear-gradient(to top, #e1e1e1, #f1f1f1 -100%);
+        padding: 27px 40px 22px 40px;
+        position: absolute;
+        left: calc(50% - 250px);
+        top: 10px;
+        background-color: white;
+        opacity: 1.7;
+        z-index: 1;
+        min-height: 670px;
+        height: auto;
+        // overflow-y: scroll;
 
-    @media only screen and (max-width : 280px) {
-        margin: 0 12px 0px 13px;
-        top: 50px;
-        width: 74.33%;
-        left: unset;
-        padding: 27px 24px 22px 26px;
-    }
+        // &::-webkit-scrollbar {
+        //     background: transparent;
+        //     width: 0px;
+        // }
 
-    @media only screen and (max-width : 321px) {
-        left: unset;
-        margin: 0 13px 0 12px;
-        padding: 27px 24px 22px 26px;
-        top: 50px;
-    }
+        @media only screen and (max-width : 280px) {
+            margin: 10px 13px 10px 12px;
+            width: 74.33%;
+            left: unset;
+            padding: 27px 24px 22px 26px;
+        }
 
-    @media only screen and (min-width: 321px) and (max-width : 500px) {
-        margin: 0px 13px 0 12px;
-        padding: 27px 24px 22px 26px;
-        top: 50px;
-        left: unset;
-    }
+        @media only screen and (max-width : 321px) {
+            left: unset;
+            margin: 10px 13px 10px 12px;
+            padding: 27px 24px 22px 26px;
+        }
 
-    // @media only screen and (max-width : 321px) {
-    //     margin: 7% 12px 0px 13px;
-    //     width: 74.33%;
-    //     left: unset;
-    //     padding: 27px 24px 22px 26px;
-    // }
+        @media only screen and (min-width: 321px) and (max-width : 500px) {
+            margin: 10px 13px 10px 12px;
+            padding: 27px 24px 22px 26px;
+            left: unset;
+        }
 
-    // @media only screen and (min-width: 321px) and (max-width : 500px) {
-    //     margin: 15% 6% 0px;
-    //     padding: 27px 24px 22px 26px;
-    // }
+        // @media only screen and (max-width : 321px) {
+        //     margin: 7% 12px 0px 13px;
+        //     width: 74.33%;
+        //     left: unset;
+        //     padding: 27px 24px 22px 26px;
+        // }
+
+        // @media only screen and (min-width: 321px) and (max-width : 500px) {
+        //     margin: 15% 6% 0px;
+        //     padding: 27px 24px 22px 26px;
+        // }
 
 
-    .headings {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+        .model {
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
 
-    .Speak-To-Our-Experts {
-        margin: 0 22px 0 0;
-        font-size: 20px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 2.22;
-        letter-spacing: normal;
-        color: #051260;
-    }
-
-    .close {
-        border: none;
-        margin-top: -5px !important;
-        font-size: 37px;
-        color: #111111;
-        opacity: 0.8;
-        cursor: pointer;
-    }
-
-    .body-content {
-        width: 100%;
-
-        form {
+        .headings {
             display: flex;
-            flex-direction: column;
-            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        .Work-Email-Address,
-        .Company-Name,
-        .Your-Timeline,
-        .Full-Name,
-        .Phone-Number,
-        .Comment,
-        .How-can-we-contact-y,
-        .Select-Services,
-        .Your-Timeline {
-            padding: 0px 10px;
-            margin: 0 0 8px;
-            border: none;
-            height: 50px;
-            border-bottom: solid 1px #8d8d8d;
-            color: #666666;
-            font-size: 12px;
-            background-color: #f0f0f0;
-        }
-
-        .Services {
-            margin-top: 14px;
-
-            .Select-Services {
-                height: 0 !important;
-                margin: 0 !important;
-                padding: 0 !important;
-            }
-
-            img {
-                width: 11px;
-                height: 7px;
-            }
-        }
-    }
-
-    .terms-privacy {
-        display: flex;
-        margin-top: 24px;
-        align-items: center;
-
-        p {
-            margin: 0 10px;
-            font-size: 10px;
-            color: black !important
-        }
-    }
-
-    .last-content-popup {
-        display: flex;
-        align-items: center;
-
-        .The-information-shar {
-            margin: 0 10px;
-            font-size: 10px;
-            color: black !important;
-        }
-    }
-
-    .Rectangle-2-Copy-10 {
-        // height: 20px;
-        margin: 20px 9px 20px 0;
-        padding: 15px 52px 16px;
-        border-radius: 25px;
-        background-color: #f8e71c;
-        cursor: pointer;
-
-        .Submit {
-            font-size: 18px;
-            font-weight: bold;
+        .Speak-To-Our-Experts {
+            margin: 0 22px 0 0;
+            font-size: 20px;
+            font-weight: 600;
             font-stretch: normal;
             font-style: normal;
+            line-height: 1.67;
             letter-spacing: normal;
-            text-align: center;
-            color: #0b0e55;
-            background-color: #f8e71c;
+            color: #051260;
+            // padding: 0 0 25px;
+        }
+
+        .close {
             border: none;
+            margin-top: 2px !important;
+            font-size: 30px;
+            color: #111111;
+            opacity: 0.8;
             cursor: pointer;
+        }
+
+        .body-content {
             width: 100%;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .Work-Email-Address,
+            .Company-Name,
+            .Your-Timeline,
+            .Full-Name,
+            .Phone-Number,
+            .Comment,
+            .How-can-we-contact-y,
+            .Select-Services,
+            .Your-Timeline {
+                padding: 0px 10px;
+                margin: 0 0 8px;
+                border: none;
+                height: 50px;
+                border-bottom: solid 1px #8d8d8d;
+                color: #666666;
+                font-size: 12px;
+                background-color: #f0f0f0;
+            }
+
+            .How-can-we-contact-y {
+                padding: 12px 0 !important;
+                margin: 0 0 8px !important;
+            }
+
+            .Services {
+                margin-top: 14px;
+
+                .Select-Services {
+                    height: 0 !important;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                }
+
+                img {
+                    width: 11px;
+                    height: 7px;
+                }
+            }
+        }
+
+        .terms-privacy {
+            display: flex;
+            margin-top: 24px;
+            align-items: center;
+
+            p {
+                margin: 0 10px;
+                font-size: 10px;
+                color: black !important
+            }
+        }
+
+        .last-content-popup {
+            display: flex;
+            align-items: center;
+
+            .The-information-shar {
+                margin: 0 10px;
+                font-size: 10px;
+                color: black !important;
+            }
+        }
+
+        .Rectangle-2-Copy-10 {
+            // height: 20px;
+            margin: 20px 0px 20px 0;
+            padding: 15px 52px 16px;
+            border-radius: 25px;
+            background-color: #f8e71c;
+            cursor: pointer;
+
+            .Submit {
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #0b0e55;
+                background-color: #f8e71c;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
         }
     }
 }

@@ -208,8 +208,8 @@ const TryItFree = ({ open, handleClose }: any) => {
   }
 
   return ReactDOM.createPortal(
-    <div className="Rectangle-try">
-      <div className="modal fade" id="formModal" role="dialog">
+    <div className="form-modal-for-free">
+      <div className="modal fade Rectangle-try" id="formModal" role="dialog">
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="headings">
