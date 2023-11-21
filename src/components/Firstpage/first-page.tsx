@@ -1,7 +1,7 @@
 import Card from "../Cardscomponent/first-Card/firstCard";
 import "../Firstpage/first-page.scss";
 import { cardData } from "../../datafile/cardData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SpeakToOurExperts from "../Popup/Speak-to-our-experts";
 const FirstPage = () => {
   const [open, setOpen] = useState(false);
@@ -10,11 +10,16 @@ const FirstPage = () => {
     console.log("consult Our experts");
     setOpen(true);
   };
-  // const handleClose = () => setOpen(false);
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+  }, [open]);
   return (
     <>
       <div className="man-holding-technology-gear-wheel-interface">
-        {/* <img src={require("../../img/background-img.png")}></img> */}
         <div className="front">
           <span className="Build-Future-Proof-S">
             Build Future-Proof Software Products with

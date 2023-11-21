@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Popup/popup.scss";
 import ReactDOM from "react-dom";
 import ThankYou from "./Thankyou";
@@ -8,6 +8,7 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
     email: "",
     company: "",
   });
+
   const [openThank, setOpenThank] = useState(false);
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -24,6 +25,7 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
 
     setOpenThank(true);
   };
+
   const handleCloseThank = () => {
     setOpenThank(false);
   };

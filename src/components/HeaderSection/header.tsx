@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import FirstPage from "../Firstpage/first-page";
 import "../HeaderSection/header.scss";
 import TryItFree from "../Popup/Try-it-free";
@@ -8,6 +8,13 @@ const Header = () => {
     setOpen(true);
     console.log("Talk To An Expert");
   };
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+  }, [open]);
   return (
     <>
       <div className="-header">

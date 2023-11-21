@@ -10,6 +10,14 @@ const Thirdpage = () => {
     console.log("Get In Touch");
     setOpen(true);
   };
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+  }, [open]);
+
   return (
     <div className="third-page">
       <div className="Our-Plan-Process">Our Plan & Process</div>
@@ -32,12 +40,6 @@ const Thirdpage = () => {
             className="third-page-img2"
           ></img>
         </div>
-        {/* <img
-          src={require("../../img/get-started-1440.png")}
-          className="third-page-img-state"
-        ></img> */}
-
-        {/* Destop............ */}
 
         <div className="get-started-containers">
           <div className="get-started-global-container">
